@@ -1,0 +1,12 @@
+Name: time
+Version: 1.0.9
+Date: 2009-05-03
+Author: Bill Denney <bill@denney.ws>
+Maintainer: Bill Denney <bill@denney.ws>
+Title: Time and Dates
+Description: Additional date manipulation tools.
+Categories: Time
+Depends: octave (>= 3.0.1)
+Autoload: yes
+License: GPL version 2 or later
+Url: http://octave.sf.net

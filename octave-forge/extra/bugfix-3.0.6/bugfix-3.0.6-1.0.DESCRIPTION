@@ -1,0 +1,12 @@
+Name: bugfix-3.0.6
+Version: 1.0
+Date: 2009-04-14
+Author: The Community
+Maintainer: The Community
+Title: Minor Bug Fixes for the 3.0.5 release.
+Description: This package overrides some functions included with the 3.0.5 release that contain minor bugs.
+Categories: stable
+Depends: octave (== 3.0.5)
+Autoload: yes
+License: GPL version 2 or later
+Url: http://octave.sf.net

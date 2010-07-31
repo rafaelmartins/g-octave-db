@@ -1,0 +1,12 @@
+Name: ANN
+Version: 1.0.2
+Date: 2009-01-09
+Author: Various Authors
+Maintainer: Xavier Delacour
+Title: Approximate Nearest Neighbor Library
+Description: The Octave-forge ANN package wraps the ANN library, which provides data structures and functions for computing exact and approximate nearest neighbors on an arbitrarily high dimensional point set.
+Depends: octave (>= 2.9.12)
+Autoload: yes
+SystemRequirements: swig
+License: GPL version 2 or later
+Url: http://octave.sf.net

@@ -1,0 +1,12 @@
+Name: database
+Version: 1.0.4
+Date: 2009-01-09
+Author: Xavier Delacour
+Maintainer: Xavier Delacour
+Title: Bindings for postgres, mysql, sqlite, and standard ODBC
+Description: These are bindings that allow SQL queries and other database operations on postgres, mysql, sqlite, and standard ODBC databases from within Octave. A simplified interface that is uniform across all database types is provided, as well as the entire C client API for each database (libpq, libmysqlclient, etc).
+Depends: octave (>= 2.9.12)
+Autoload: yes
+SystemRequirements: swig, postgresql-8.2, postgresql-client-8.2, mysql-common, mysql-client-5.0, mysql-server-5.0, libmysqlclient15-dev, sqlite3, libsqlite3-dev, unixodbc-bin, unixodbc-dev, odbc-postgresql.
+License: BSD, GPL2
+Url: http://octave.sf.net

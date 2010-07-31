@@ -1,0 +1,12 @@
+Name: Specfun
+Version: 1.0.8
+Date: 2009-05-03
+Author: Various Authors
+Maintainer: The Octave Community
+Title: Specfun
+Description: Special functions including ellipitic functions, etc
+Categories: Specfun
+Depends: octave (>= 2.9.7)
+Autoload: yes
+License: GPL version 2 or later
+Url: http://octave.sf.net

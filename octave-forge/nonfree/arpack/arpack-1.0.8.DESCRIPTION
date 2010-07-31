@@ -1,0 +1,12 @@
+Name: Arpack
+Version: 1.0.8
+Date: 2009-05-03
+Author: David Bateman
+Maintainer: David Bateman
+Title: Arpack.
+Description: Octave bindings to ARPACK, including the eigs and svds function.
+Depends: octave (> 2.9.9)
+Autoload: yes
+License: GPL version 2 or later. Note ARPACK redistristibution
+ restriction discussed in the documentation
+Url: http://octave.sf.net http://www.caam.rice.edu/software/ARPACK

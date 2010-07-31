@@ -1,0 +1,12 @@
+Name: JHandles
+Version: 0.3.5
+Date: 2009-05-03
+Author: Michael Goffioul <michael.goffioul@gmail.com>
+Maintainer: Michael Goffioul <michael.goffioul@gmail.com>
+Title: Java Graphic Handles Package
+Description: JHandles is a java- and openGL-based alternative graphics 
+ package for octave, providing a handle-based mechanism similar to Matlab.
+Categories: Graphics
+Depends: octave (>= 2.9.12), java
+License: GPL version 2 or later / LGPL
+SystemRequirements: jre, jogl

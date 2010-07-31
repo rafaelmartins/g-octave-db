@@ -1,0 +1,12 @@
+Name: Linear-Algebra
+Version: 2.0.0
+Date: 2009-05-18
+Author: Various Authors
+Maintainer: Jaroslav Hajek
+Title: Linear Algebra.
+Description: Additional linear algebra code, including general SVD and matrix functions.
+Categories: Linear-Algebra
+Depends: octave (>= 3.2.3)
+Autoload: yes
+License: GPL version 3 or later
+Url: http://octave.sf.net

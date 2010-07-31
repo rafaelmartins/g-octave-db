@@ -1,0 +1,12 @@
+Name: io
+Version: 1.0.9
+Date: 2009-05-08
+Author: Various Authors
+Maintainer: The Octave Community
+Title: Input/Output
+Description: Input/Output in external formats.
+Categories: IO
+Depends: octave (>= 2.9.7)
+Autoload: yes
+License: GPL version 2 or later
+Url: http://octave.sf.net

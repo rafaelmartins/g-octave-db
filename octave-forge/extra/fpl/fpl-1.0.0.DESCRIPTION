@@ -1,0 +1,12 @@
+Name: fpl
+Version: 1.0.0
+Date: 2010-02-09
+Author: Carlo de Falco, Massimiliano Culpo
+Maintainer:  Massimiliano Culpo
+Title: Fem PLotting
+Description: Collection of routines to save data in different graphical formats.
+Categories: Graphics
+Depends: octave ( >= 3.0.0 )
+License: GNU/GPL 
+SystemRequirements: dx ( >= 4.3.2), sed, bash
+SVNRelease: 6866

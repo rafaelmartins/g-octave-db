@@ -1,0 +1,17 @@
+Name: Image
+Version: 1.0.10
+Date: 2009-05-03
+Author: Various Authors
+Maintainer: Soren Hauberg
+Title: Image Processing
+Description: The Octave-forge Image package provides functions for
+ processing images.
+ The package also provides functions for feature extraction, image
+ statistics, spatial and geometric transformations, morphological
+ operations, linear filtering, and much more.
+Depends: octave (>= 3.1.51)
+Autoload: yes
+BuildRequires: png-devel
+BuildRequires: jpeg-devel
+License: GPL version 2 or later
+Url: http://octave.sf.net

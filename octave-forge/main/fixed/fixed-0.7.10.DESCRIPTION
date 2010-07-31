@@ -1,0 +1,11 @@
+Name: Fixed
+Version: 0.7.10
+Date: 2009-05-18
+Author: David Bateman
+Maintainer: David Bateman
+Title: Fixed Point Computations
+Description: Fixed point real and complex matrix toolbox
+Depends: octave (> 3.1.54)
+Autoload: yes
+License: GPL version 2 or later
+Url: http://octave.sf.net

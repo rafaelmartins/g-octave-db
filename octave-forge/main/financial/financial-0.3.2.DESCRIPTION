@@ -1,0 +1,12 @@
+Name: financial
+Version: 0.3.2
+Date: 2008-08-17
+Author: Bill Denney <bill@denney.ws>, Kurt Hornik <Kurt.Hornik@wu-wien.ac.at>
+Maintainer: Bill Denney <bill@denney.ws>
+Title: Financial
+Description: Financial manipulation and plotting functions
+Categories: Financial
+Depends: octave (>= 3.0.0), time (>= 1.0.5), miscellaneous (>= 1.0.6)
+Autoload: yes
+License: GPL version 3 and GPL version 2 or later
+Url: http://octave.sf.net

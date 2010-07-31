@@ -1,0 +1,12 @@
+Name: PhysicalConstants
+Version: 0.1.7
+Date: 2009-05-06
+Author: Muthiah Annamalai
+Maintainer: Muthiah Annamalai
+Title: Physical Constants
+Description: Physical Constants from Atomic & Molecular Physics, taken from NIST database
+Categories: Physics
+Depends: octave (>= 2.9.7)
+Autoload: yes
+License: GPL version 2 or later
+Url: http://octave.sf.net

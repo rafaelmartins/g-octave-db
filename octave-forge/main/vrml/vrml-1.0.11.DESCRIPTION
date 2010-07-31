@@ -1,0 +1,12 @@
+Name: Vrml
+Version: 1.0.11
+Date: 2010-02-07
+Author: Etienne Grossmann
+Maintainer: Etienne Grossmann
+Title: VRML.
+Description: 3D graphics using VRML
+Depends: octave (>= 2.9.7), miscellaneous, struct, statistics
+Autoload: yes
+SystemRequirements: freewrl
+License: GPL version 2 or later and GFDL
+Url: http://octave.sf.net
