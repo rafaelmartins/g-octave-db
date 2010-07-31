@@ -1,5 +1,12 @@
-try
-  atexit ("java_exit", false);
-catch
-  warning ("Failed to remove atexit command in java");
-end_try_catch
+Name: Java
+Version: 1.2.6
+Date: 2009-05-03
+Author: Michael Goffioul <michael.goffioul@gmail.com>
+Maintainer: Michael Goffioul <michael.goffioul@gmail.com>
+Title: Java Interface
+Description: Provides Java interface with OO-like Java objects manipulation
+Categories: Java
+Depends: octave (>= 2.9.12)
+Autoload: yes
+License: GPL version 2 or later
+Url: http://octave.sf.net

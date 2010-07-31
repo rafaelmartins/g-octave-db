@@ -1,22 +1,12 @@
-try
-  __jhandles_exit ();
-  atexit ("__jhandles_exit", false);
-catch
-  warning("Failed to remove atexit command in jhandles");
-end_try_catch
-
-dispatch ("get", "any");
-dispatch ("set", "any");
-dispatch ("ishandle", "any");
-dispatch ("__go_figure__", "any");
-dispatch ("__go_delete__", "any");
-dispatch ("__go_axes__", "any");
-dispatch ("__go_axes_init__", "any");
-dispatch ("__go_text__", "any");
-dispatch ("__go_surface__", "any");
-dispatch ("__go_image__", "any");
-dispatch ("__go_patch__", "any");
-dispatch ("__go_line__", "any");
-dispatch ("__go_execute_callback__", "any");
-
-java_invoke ("java.lang.System", "clearProperty", "octave.jhandles.path");
+Name: JHandles
+Version: 0.3.5
+Date: 2009-05-03
+Author: Michael Goffioul <michael.goffioul@gmail.com>
+Maintainer: Michael Goffioul <michael.goffioul@gmail.com>
+Title: Java Graphic Handles Package
+Description: JHandles is a java- and openGL-based alternative graphics 
+ package for octave, providing a handle-based mechanism similar to Matlab.
+Categories: Graphics
+Depends: octave (>= 2.9.12), java
+License: GPL version 2 or later / LGPL
+SystemRequirements: jre, jogl

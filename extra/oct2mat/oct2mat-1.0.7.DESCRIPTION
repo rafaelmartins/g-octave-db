@@ -1,57 +1,11 @@
-# Automatically generated file --- DO NOT EDIT
-2009-06-07 10:39  hauberg
-
-	* CONTENTS: CONTENTS files should only be used first levels of the
-	  directory hierachy, hence the file was removed
-
-2009-06-07 09:53  hauberg
-
-	* trunk/octave-forge/extra/NaN/DESCRIPTION,
-	  trunk/octave-forge/extra/Windows/DESCRIPTION,
-	  trunk/octave-forge/extra/ad/DESCRIPTION,
-	  trunk/octave-forge/extra/bim/DESCRIPTION,
-	  trunk/octave-forge/extra/bugfix-3.0.5/DESCRIPTION,
-	  trunk/octave-forge/extra/engine/DESCRIPTION,
-	  trunk/octave-forge/extra/fpl/DESCRIPTION,
-	  trunk/octave-forge/extra/generate_html/inst/generate_package_html.m,
-	  trunk/octave-forge/extra/generate_html/inst/private/mk_function_dir.m,
-	  trunk/octave-forge/extra/graceplot/DESCRIPTION,
-	  trunk/octave-forge/extra/msh/DESCRIPTION,
-	  trunk/octave-forge/extra/multicore/DESCRIPTION,
-	  trunk/octave-forge/extra/nurbs/DESCRIPTION,
-	  trunk/octave-forge/extra/ocs/DESCRIPTION, DESCRIPTION,
-	  trunk/octave-forge/extra/symband/DESCRIPTION,
-	  trunk/octave-forge/language/es_CO/DESCRIPTION,
-	  trunk/octave-forge/main/audio/DESCRIPTION,
-	  trunk/octave-forge/main/control/DESCRIPTION,
-	  trunk/octave-forge/main/financial/DESCRIPTION,
-	  trunk/octave-forge/main/general/DESCRIPTION,
-	  trunk/octave-forge/main/image/DESCRIPTION,
-	  trunk/octave-forge/main/info-theory/DESCRIPTION,
-	  trunk/octave-forge/main/io/DESCRIPTION,
-	  trunk/octave-forge/main/miscellaneous/DESCRIPTION,
-	  trunk/octave-forge/main/odepkg/DESCRIPTION,
-	  trunk/octave-forge/main/signal/DESCRIPTION,
-	  trunk/octave-forge/main/statistics/DESCRIPTION,
-	  trunk/octave-forge/main/symbolic/DESCRIPTION,
-	  trunk/octave-forge/main/vrml/DESCRIPTION: Update version numbers
-
-2009-05-15 08:17  schloegl
-
-	* inst/oct2mat: conversion of endswitch statement added
-
-2009-05-08 10:54  hauberg
-
-	* DESCRIPTION: Remove empty field
-
-2009-04-28 15:08  schloegl
-
-	* trunk/octave-forge/doc/htdocs/oct2mat.tar.gz, ., CONTENTS,
-	  COPYING, DESCRIPTION, doc, doc/README.FREETB4MATLAB,
-	  doc/README.OCT2MAT, inst, inst/arg.m, inst/fflush.m,
-	  inst/file_in_loadpath.m, inst/file_in_path.m,
-	  inst/freetb4matlab.m, inst/is_matrix.m, inst/is_vector.m,
-	  inst/oct2mat, inst/oneplot.m, inst/rindex.m, inst/striplegend.m,
-	  inst/substr.m, inst/toascii.m, inst/tolower.m, inst/toupper.m:
-	  add oct2mat and freetb4matab to repository
-
+Name: Oct2Mat
+Version: 1.0.7
+Date: 2008-08-23
+Author: Paul Kienzle
+Maintainer: Alois Schloegl
+Title: Oct2Mat
+Description: convert m-file into matlab-compatible coding style
+Categories: graphics
+Depends: octave (>= 2.9.7), io (>= 1.0.0)
+License: GPL version 2 or later
+Url: http://octave.sf.net
