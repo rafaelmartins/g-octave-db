@@ -1,0 +1,265 @@
+# Automatically generated file --- DO NOT EDIT
+2009-01-10 01:02  xavier98
+
+	* trunk/octave-forge/main/ann/DESCRIPTION,
+	  trunk/octave-forge/main/ann/src/ann/bindings/ann_wrap.cpp,
+	  trunk/octave-forge/main/database/DESCRIPTION,
+	  trunk/octave-forge/main/database/src/mysql.i,
+	  trunk/octave-forge/main/database/src/mysql_filtered.h,
+	  trunk/octave-forge/main/database/src/mysql_wrap.cpp,
+	  trunk/octave-forge/main/database/src/odbc_wrap.cpp,
+	  trunk/octave-forge/main/database/src/postgres_wrap.cpp,
+	  trunk/octave-forge/main/database/src/sqlite3_wrap.cpp,
+	  DESCRIPTION, src/ftp_wrap.cpp: Bring swig wrappers up to date,
+	  and fix/suppress mysql build error in ubuntu 8.10.
+
+2008-08-24 16:17  hauberg
+
+	* trunk/octave-forge/main/ann/DESCRIPTION,
+	  trunk/octave-forge/main/audio/DESCRIPTION,
+	  trunk/octave-forge/main/benchmark/INDEX,
+	  trunk/octave-forge/main/bioinfo/DESCRIPTION,
+	  trunk/octave-forge/main/combinatorics/DESCRIPTION,
+	  trunk/octave-forge/main/comm/DESCRIPTION,
+	  trunk/octave-forge/main/control/DESCRIPTION,
+	  trunk/octave-forge/main/database/DESCRIPTION,
+	  trunk/octave-forge/main/econometrics/DESCRIPTION,
+	  trunk/octave-forge/main/fixed/DESCRIPTION, DESCRIPTION,
+	  trunk/octave-forge/main/ga/DESCRIPTION,
+	  trunk/octave-forge/main/general/DESCRIPTION,
+	  trunk/octave-forge/main/ident/DESCRIPTION,
+	  trunk/octave-forge/main/image/DESCRIPTION,
+	  trunk/octave-forge/main/info-theory/DESCRIPTION,
+	  trunk/octave-forge/main/io/DESCRIPTION,
+	  trunk/octave-forge/main/irsa/DESCRIPTION,
+	  trunk/octave-forge/main/linear-algebra/DESCRIPTION,
+	  trunk/octave-forge/main/miscellaneous/DESCRIPTION,
+	  trunk/octave-forge/main/missing-functions/DESCRIPTION,
+	  trunk/octave-forge/main/nnet/DESCRIPTION,
+	  trunk/octave-forge/main/octcdf/DESCRIPTION,
+	  trunk/octave-forge/main/odebvp/DESCRIPTION,
+	  trunk/octave-forge/main/odepkg/DESCRIPTION,
+	  trunk/octave-forge/main/optim/DESCRIPTION,
+	  trunk/octave-forge/main/outliers/DESCRIPTION,
+	  trunk/octave-forge/main/parallel/DESCRIPTION,
+	  trunk/octave-forge/main/physical-constants/DESCRIPTION,
+	  trunk/octave-forge/main/plot/DESCRIPTION,
+	  trunk/octave-forge/main/signal/DESCRIPTION,
+	  trunk/octave-forge/main/signal/INDEX,
+	  trunk/octave-forge/main/sockets/DESCRIPTION,
+	  trunk/octave-forge/main/specfun/DESCRIPTION,
+	  trunk/octave-forge/main/special-matrix/DESCRIPTION,
+	  trunk/octave-forge/main/splines/DESCRIPTION,
+	  trunk/octave-forge/main/statistics/DESCRIPTION,
+	  trunk/octave-forge/main/statistics/INDEX,
+	  trunk/octave-forge/main/strings/DESCRIPTION,
+	  trunk/octave-forge/main/struct/DESCRIPTION,
+	  trunk/octave-forge/main/symbolic/DESCRIPTION,
+	  trunk/octave-forge/main/time/DESCRIPTION,
+	  trunk/octave-forge/main/video/DESCRIPTION,
+	  trunk/octave-forge/main/vrml/DESCRIPTION,
+	  trunk/octave-forge/main/zenity/DESCRIPTION: Bumped version number
+
+2008-05-08 23:16  xavier98
+
+	* trunk/octave-forge/main/ann/src/Makeconf.in,
+	  trunk/octave-forge/main/ann/src/ann/ann2fig/Makefile,
+	  trunk/octave-forge/main/ann/src/ann/ann2fig/ann2fig.cpp,
+	  trunk/octave-forge/main/ann/src/ann/bindings/Makefile,
+	  trunk/octave-forge/main/ann/src/ann/bindings/ann_wrap.cpp,
+	  trunk/octave-forge/main/ann/src/ann/include/ANN/ANN.h,
+	  trunk/octave-forge/main/ann/src/ann/sample/Makefile,
+	  trunk/octave-forge/main/ann/src/ann/src/Makefile,
+	  trunk/octave-forge/main/ann/src/ann/test/Makefile,
+	  trunk/octave-forge/main/ann/src/configure.base,
+	  trunk/octave-forge/main/database/src/Makefile,
+	  trunk/octave-forge/main/database/src/mysql_wrap.cpp,
+	  trunk/octave-forge/main/database/src/odbc_wrap.cpp,
+	  trunk/octave-forge/main/database/src/postgres_wrap.cpp,
+	  trunk/octave-forge/main/database/src/sqlite3_wrap.cpp,
+	  src/Makefile, src/ftp_wrap.cpp: Various fixes for ann, ftp, and
+	  database packages (from Michael Goffioul).
+
+2008-04-29 21:45  xavier98
+
+	* trunk/octave-forge/main/ann/src/ann/bindings/ann_wrap.cpp,
+	  trunk/octave-forge/main/database/src/mysql_wrap.cpp,
+	  trunk/octave-forge/main/database/src/odbc_wrap.cpp,
+	  trunk/octave-forge/main/database/src/postgres_wrap.cpp,
+	  trunk/octave-forge/main/database/src/sqlite3_wrap.cpp,
+	  src/ftp_wrap.cpp: Update SWIG wrappers.
+
+2008-04-29 17:52  hauberg
+
+	* trunk/octave-forge/extra/NaN/DESCRIPTION,
+	  trunk/octave-forge/extra/Windows/DESCRIPTION,
+	  trunk/octave-forge/extra/ad/DESCRIPTION,
+	  trunk/octave-forge/extra/bim/DESCRIPTION,
+	  trunk/octave-forge/extra/civil/DESCRIPTION,
+	  trunk/octave-forge/extra/engine/DESCRIPTION,
+	  trunk/octave-forge/extra/fpl/DESCRIPTION,
+	  trunk/octave-forge/extra/graceplot/DESCRIPTION,
+	  trunk/octave-forge/extra/integration/DESCRIPTION,
+	  trunk/octave-forge/extra/java/DESCRIPTION,
+	  trunk/octave-forge/extra/jhandles/DESCRIPTION,
+	  trunk/octave-forge/extra/mapping/DESCRIPTION,
+	  trunk/octave-forge/extra/msh/DESCRIPTION,
+	  trunk/octave-forge/extra/multicore/DESCRIPTION,
+	  trunk/octave-forge/extra/ocs/DESCRIPTION,
+	  trunk/octave-forge/extra/pdb/DESCRIPTION,
+	  trunk/octave-forge/extra/secs1d/DESCRIPTION,
+	  trunk/octave-forge/extra/secs2d/DESCRIPTION,
+	  trunk/octave-forge/extra/soctcl/DESCRIPTION,
+	  trunk/octave-forge/extra/symband/DESCRIPTION,
+	  trunk/octave-forge/extra/triangular/DESCRIPTION,
+	  trunk/octave-forge/extra/tsa/DESCRIPTION,
+	  trunk/octave-forge/extra/xraylib/DESCRIPTION,
+	  trunk/octave-forge/language/pt_BR/DESCRIPTION,
+	  trunk/octave-forge/main/ann/DESCRIPTION,
+	  trunk/octave-forge/main/audio/DESCRIPTION,
+	  trunk/octave-forge/main/bioinfo/DESCRIPTION,
+	  trunk/octave-forge/main/combinatorics/DESCRIPTION,
+	  trunk/octave-forge/main/comm/DESCRIPTION,
+	  trunk/octave-forge/main/control/DESCRIPTION,
+	  trunk/octave-forge/main/data-smoothing/DESCRIPTION,
+	  trunk/octave-forge/main/database/DESCRIPTION,
+	  trunk/octave-forge/main/econometrics/DESCRIPTION,
+	  trunk/octave-forge/main/financial/DESCRIPTION,
+	  trunk/octave-forge/main/fixed/DESCRIPTION, DESCRIPTION,
+	  trunk/octave-forge/main/ga/DESCRIPTION,
+	  trunk/octave-forge/main/general/DESCRIPTION,
+	  trunk/octave-forge/main/ident/DESCRIPTION,
+	  trunk/octave-forge/main/image/DESCRIPTION,
+	  trunk/octave-forge/main/info-theory/DESCRIPTION,
+	  trunk/octave-forge/main/io/DESCRIPTION,
+	  trunk/octave-forge/main/irsa/DESCRIPTION,
+	  trunk/octave-forge/main/linear-algebra/DESCRIPTION,
+	  trunk/octave-forge/main/miscellaneous/DESCRIPTION,
+	  trunk/octave-forge/main/missing-functions/DESCRIPTION,
+	  trunk/octave-forge/main/nnet/DESCRIPTION,
+	  trunk/octave-forge/main/octcdf/DESCRIPTION,
+	  trunk/octave-forge/main/octgpr/DESCRIPTION,
+	  trunk/octave-forge/main/odebvp/DESCRIPTION,
+	  trunk/octave-forge/main/odepkg/DESCRIPTION,
+	  trunk/octave-forge/main/optim/DESCRIPTION,
+	  trunk/octave-forge/main/optiminterp/DESCRIPTION,
+	  trunk/octave-forge/main/outliers/DESCRIPTION,
+	  trunk/octave-forge/main/parallel/DESCRIPTION,
+	  trunk/octave-forge/main/physical-constants/DESCRIPTION,
+	  trunk/octave-forge/main/plot/DESCRIPTION,
+	  trunk/octave-forge/main/signal/DESCRIPTION,
+	  trunk/octave-forge/main/sockets/DESCRIPTION,
+	  trunk/octave-forge/main/specfun/DESCRIPTION,
+	  trunk/octave-forge/main/special-matrix/DESCRIPTION,
+	  trunk/octave-forge/main/splines/DESCRIPTION,
+	  trunk/octave-forge/main/statistics/DESCRIPTION,
+	  trunk/octave-forge/main/strings/DESCRIPTION,
+	  trunk/octave-forge/main/struct/DESCRIPTION,
+	  trunk/octave-forge/main/symbolic/DESCRIPTION,
+	  trunk/octave-forge/main/time/DESCRIPTION,
+	  trunk/octave-forge/main/video/DESCRIPTION,
+	  trunk/octave-forge/main/vrml/DESCRIPTION,
+	  trunk/octave-forge/main/zenity/DESCRIPTION,
+	  trunk/octave-forge/nonfree/arpack/DESCRIPTION,
+	  trunk/octave-forge/nonfree/spline-gsvspl/DESCRIPTION: Updated
+	  release dates
+
+2008-04-12 13:33  xavier98
+
+	* trunk/octave-forge/main/ann/src/configure.base,
+	  trunk/octave-forge/main/database/src/configure.base,
+	  src/configure.base: Force -fPIC flag into CFLAGS if defined.
+
+2008-04-12 13:29  xavier98
+
+	* src/docs.i: Minor edit to ftp texinfo docs.
+
+2008-04-10 00:22  xavier98
+
+	* src/ftp_wrap.cpp: Fix build under 64-bit gcc.
+
+2008-04-07 18:49  xavier98
+
+	* trunk/octave-forge/main/ann/src/ann/bindings/ann_wrap.cpp,
+	  trunk/octave-forge/main/database/src/mysql_wrap.cpp,
+	  trunk/octave-forge/main/database/src/odbc_wrap.cpp,
+	  trunk/octave-forge/main/database/src/postgres_wrap.cpp,
+	  trunk/octave-forge/main/database/src/sqlite3_wrap.cpp,
+	  trunk/octave-forge/main/database/src/tests/helpers.m,
+	  trunk/octave-forge/main/database/src/tests/mysql_high.m,
+	  trunk/octave-forge/main/database/src/tests/odbc_high.m,
+	  trunk/octave-forge/main/database/src/tests/postgres_high.m,
+	  trunk/octave-forge/main/database/src/tests/sqlite_high.m,
+	  src/ftp_wrap.cpp: Bring SWIG wrappers up to date.
+	  Minor test fixes.
+
+2008-03-30 02:06  xavier98
+
+	* PKG_ADD, src/Makefile, src/docs.i, src/ftp.i, src/ftp_wrap.cpp:
+	  Implement manual %docstring support in SWIG.
+	  Document FTP functions.
+	  Hide ftp internals, make interface slightly more consistent.
+
+2008-03-29 15:38  xavier98
+
+	* DESCRIPTION, INDEX, PKG_ADD, src/Makefile, src/ftp.i,
+	  src/ftp_wrap.cpp, src/ftplib_filtered.h, src/tests/basic.m: Don't
+	  expose ftplib C interface (remove ftplib_filtered.h, associated
+	  typemaps, etc).
+	  
+	  Use dispatch() to expose correct Matlab interface, without ftp_
+	  prefixes.
+
+2008-03-29 02:11  xavier98
+
+	* trunk/octave-forge/main/ann/src/Makeconf.in,
+	  trunk/octave-forge/main/ann/src/ann/bindings/Makefile,
+	  trunk/octave-forge/main/ann/src/ann/bindings/ann_wrap.cpp,
+	  trunk/octave-forge/main/ann/src/configure.base,
+	  trunk/octave-forge/main/database/src/Makeconf.in,
+	  trunk/octave-forge/main/database/src/Makefile,
+	  trunk/octave-forge/main/database/src/configure.base,
+	  trunk/octave-forge/main/database/src/mysql_wrap.cpp,
+	  trunk/octave-forge/main/database/src/odbc_wrap.cpp,
+	  trunk/octave-forge/main/database/src/postgres_wrap.cpp,
+	  trunk/octave-forge/main/database/src/sqlite3_wrap.cpp,
+	  src/Makeconf.in, src/Makefile, src/configure.base,
+	  src/ftp_wrap.cpp: Submit pre-generated SWIG targets, so having
+	  SWIG installed is not necessary to build/install packages that
+	  depend on it.
+	  
+	  One can regenerate wrappers via
+	  
+	  ./autogen.sh && PATH=/path/to/swig/bin:$PATH ./configure
+	  --with-swig && make
+
+2008-03-28 13:48  xavier98
+
+	* src/tests/basic.m: Modify ftp basic.m test so it downloads small
+	  files from ftp.gnu.org not associated with any particular
+	  project.
+
+2008-03-24 21:04  xavier98
+
+	* ., COPYING, DESCRIPTION, INDEX, Makefile, PKG_ADD, inst, src,
+	  src/Makeconf.in, src/Makefile, src/README, src/autogen.sh,
+	  src/configure.base, src/ftp.i, src/ftplib_filtered.h, src/tests,
+	  src/tests/basic.m, src/tests/empty.m, src/tests/twice.m: Initial
+	  commit of ftplib bindings.
+	  
+	  Implements:
+	  ascii
+	  binary
+	  ftp
+	  mget
+	  mput
+	  ftp_cd
+	  ftp_remove
+	  ftp_rename
+	  ftp_put
+	  ftp_get
+	  ftp_mkdir
+	  ftp_rmdir
+	  ftp_ls
+	  ftp_dir
+

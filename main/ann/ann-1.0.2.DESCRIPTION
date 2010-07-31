@@ -1,0 +1,282 @@
+# Automatically generated file --- DO NOT EDIT
+2009-01-10 01:02  xavier98
+
+	* DESCRIPTION, src/ann/bindings/ann_wrap.cpp,
+	  trunk/octave-forge/main/database/DESCRIPTION,
+	  trunk/octave-forge/main/database/src/mysql.i,
+	  trunk/octave-forge/main/database/src/mysql_filtered.h,
+	  trunk/octave-forge/main/database/src/mysql_wrap.cpp,
+	  trunk/octave-forge/main/database/src/odbc_wrap.cpp,
+	  trunk/octave-forge/main/database/src/postgres_wrap.cpp,
+	  trunk/octave-forge/main/database/src/sqlite3_wrap.cpp,
+	  trunk/octave-forge/main/ftp/DESCRIPTION,
+	  trunk/octave-forge/main/ftp/src/ftp_wrap.cpp: Bring swig wrappers
+	  up to date, and fix/suppress mysql build error in ubuntu 8.10.
+
+2008-08-24 16:17  hauberg
+
+	* DESCRIPTION, trunk/octave-forge/main/audio/DESCRIPTION,
+	  trunk/octave-forge/main/benchmark/INDEX,
+	  trunk/octave-forge/main/bioinfo/DESCRIPTION,
+	  trunk/octave-forge/main/combinatorics/DESCRIPTION,
+	  trunk/octave-forge/main/comm/DESCRIPTION,
+	  trunk/octave-forge/main/control/DESCRIPTION,
+	  trunk/octave-forge/main/database/DESCRIPTION,
+	  trunk/octave-forge/main/econometrics/DESCRIPTION,
+	  trunk/octave-forge/main/fixed/DESCRIPTION,
+	  trunk/octave-forge/main/ftp/DESCRIPTION,
+	  trunk/octave-forge/main/ga/DESCRIPTION,
+	  trunk/octave-forge/main/general/DESCRIPTION,
+	  trunk/octave-forge/main/ident/DESCRIPTION,
+	  trunk/octave-forge/main/image/DESCRIPTION,
+	  trunk/octave-forge/main/info-theory/DESCRIPTION,
+	  trunk/octave-forge/main/io/DESCRIPTION,
+	  trunk/octave-forge/main/irsa/DESCRIPTION,
+	  trunk/octave-forge/main/linear-algebra/DESCRIPTION,
+	  trunk/octave-forge/main/miscellaneous/DESCRIPTION,
+	  trunk/octave-forge/main/missing-functions/DESCRIPTION,
+	  trunk/octave-forge/main/nnet/DESCRIPTION,
+	  trunk/octave-forge/main/octcdf/DESCRIPTION,
+	  trunk/octave-forge/main/odebvp/DESCRIPTION,
+	  trunk/octave-forge/main/odepkg/DESCRIPTION,
+	  trunk/octave-forge/main/optim/DESCRIPTION,
+	  trunk/octave-forge/main/outliers/DESCRIPTION,
+	  trunk/octave-forge/main/parallel/DESCRIPTION,
+	  trunk/octave-forge/main/physical-constants/DESCRIPTION,
+	  trunk/octave-forge/main/plot/DESCRIPTION,
+	  trunk/octave-forge/main/signal/DESCRIPTION,
+	  trunk/octave-forge/main/signal/INDEX,
+	  trunk/octave-forge/main/sockets/DESCRIPTION,
+	  trunk/octave-forge/main/specfun/DESCRIPTION,
+	  trunk/octave-forge/main/special-matrix/DESCRIPTION,
+	  trunk/octave-forge/main/splines/DESCRIPTION,
+	  trunk/octave-forge/main/statistics/DESCRIPTION,
+	  trunk/octave-forge/main/statistics/INDEX,
+	  trunk/octave-forge/main/strings/DESCRIPTION,
+	  trunk/octave-forge/main/struct/DESCRIPTION,
+	  trunk/octave-forge/main/symbolic/DESCRIPTION,
+	  trunk/octave-forge/main/time/DESCRIPTION,
+	  trunk/octave-forge/main/video/DESCRIPTION,
+	  trunk/octave-forge/main/vrml/DESCRIPTION,
+	  trunk/octave-forge/main/zenity/DESCRIPTION: Bumped version number
+
+2008-05-08 23:16  xavier98
+
+	* src/Makeconf.in, src/ann/ann2fig/Makefile,
+	  src/ann/ann2fig/ann2fig.cpp, src/ann/bindings/Makefile,
+	  src/ann/bindings/ann_wrap.cpp, src/ann/include/ANN/ANN.h,
+	  src/ann/sample/Makefile, src/ann/src/Makefile,
+	  src/ann/test/Makefile, src/configure.base,
+	  trunk/octave-forge/main/database/src/Makefile,
+	  trunk/octave-forge/main/database/src/mysql_wrap.cpp,
+	  trunk/octave-forge/main/database/src/odbc_wrap.cpp,
+	  trunk/octave-forge/main/database/src/postgres_wrap.cpp,
+	  trunk/octave-forge/main/database/src/sqlite3_wrap.cpp,
+	  trunk/octave-forge/main/ftp/src/Makefile,
+	  trunk/octave-forge/main/ftp/src/ftp_wrap.cpp: Various fixes for
+	  ann, ftp, and database packages (from Michael Goffioul).
+
+2008-05-04 19:58  xavier98
+
+	* src/Makeconf.in, src/Makefile, src/README, src/ann/Make-config,
+	  src/ann/Makefile, src/ann/ann2fig/Makefile,
+	  src/ann/ann2fig/ann2fig.cpp, src/ann/bin,
+	  src/ann/bin/.empty_file, src/ann/bindings/Makefile,
+	  src/ann/sample/Makefile, src/ann/src/Makefile,
+	  src/ann/src/kd_dump.cpp, src/ann/test/Makefile,
+	  src/ann/test/ann_test.cpp, src/configure.base: Use mkoctfile to
+	  locate compiler etc.
+	  
+	  Fix PIC flag usage.
+	  
+	  Add missing header decls needed to build on gcc 4.3/Fedora 9
+	  (thanks to Quentin Spencer).
+
+2008-04-29 21:45  xavier98
+
+	* src/ann/bindings/ann_wrap.cpp,
+	  trunk/octave-forge/main/database/src/mysql_wrap.cpp,
+	  trunk/octave-forge/main/database/src/odbc_wrap.cpp,
+	  trunk/octave-forge/main/database/src/postgres_wrap.cpp,
+	  trunk/octave-forge/main/database/src/sqlite3_wrap.cpp,
+	  trunk/octave-forge/main/ftp/src/ftp_wrap.cpp: Update SWIG
+	  wrappers.
+
+2008-04-29 17:52  hauberg
+
+	* trunk/octave-forge/extra/NaN/DESCRIPTION,
+	  trunk/octave-forge/extra/Windows/DESCRIPTION,
+	  trunk/octave-forge/extra/ad/DESCRIPTION,
+	  trunk/octave-forge/extra/bim/DESCRIPTION,
+	  trunk/octave-forge/extra/civil/DESCRIPTION,
+	  trunk/octave-forge/extra/engine/DESCRIPTION,
+	  trunk/octave-forge/extra/fpl/DESCRIPTION,
+	  trunk/octave-forge/extra/graceplot/DESCRIPTION,
+	  trunk/octave-forge/extra/integration/DESCRIPTION,
+	  trunk/octave-forge/extra/java/DESCRIPTION,
+	  trunk/octave-forge/extra/jhandles/DESCRIPTION,
+	  trunk/octave-forge/extra/mapping/DESCRIPTION,
+	  trunk/octave-forge/extra/msh/DESCRIPTION,
+	  trunk/octave-forge/extra/multicore/DESCRIPTION,
+	  trunk/octave-forge/extra/ocs/DESCRIPTION,
+	  trunk/octave-forge/extra/pdb/DESCRIPTION,
+	  trunk/octave-forge/extra/secs1d/DESCRIPTION,
+	  trunk/octave-forge/extra/secs2d/DESCRIPTION,
+	  trunk/octave-forge/extra/soctcl/DESCRIPTION,
+	  trunk/octave-forge/extra/symband/DESCRIPTION,
+	  trunk/octave-forge/extra/triangular/DESCRIPTION,
+	  trunk/octave-forge/extra/tsa/DESCRIPTION,
+	  trunk/octave-forge/extra/xraylib/DESCRIPTION,
+	  trunk/octave-forge/language/pt_BR/DESCRIPTION, DESCRIPTION,
+	  trunk/octave-forge/main/audio/DESCRIPTION,
+	  trunk/octave-forge/main/bioinfo/DESCRIPTION,
+	  trunk/octave-forge/main/combinatorics/DESCRIPTION,
+	  trunk/octave-forge/main/comm/DESCRIPTION,
+	  trunk/octave-forge/main/control/DESCRIPTION,
+	  trunk/octave-forge/main/data-smoothing/DESCRIPTION,
+	  trunk/octave-forge/main/database/DESCRIPTION,
+	  trunk/octave-forge/main/econometrics/DESCRIPTION,
+	  trunk/octave-forge/main/financial/DESCRIPTION,
+	  trunk/octave-forge/main/fixed/DESCRIPTION,
+	  trunk/octave-forge/main/ftp/DESCRIPTION,
+	  trunk/octave-forge/main/ga/DESCRIPTION,
+	  trunk/octave-forge/main/general/DESCRIPTION,
+	  trunk/octave-forge/main/ident/DESCRIPTION,
+	  trunk/octave-forge/main/image/DESCRIPTION,
+	  trunk/octave-forge/main/info-theory/DESCRIPTION,
+	  trunk/octave-forge/main/io/DESCRIPTION,
+	  trunk/octave-forge/main/irsa/DESCRIPTION,
+	  trunk/octave-forge/main/linear-algebra/DESCRIPTION,
+	  trunk/octave-forge/main/miscellaneous/DESCRIPTION,
+	  trunk/octave-forge/main/missing-functions/DESCRIPTION,
+	  trunk/octave-forge/main/nnet/DESCRIPTION,
+	  trunk/octave-forge/main/octcdf/DESCRIPTION,
+	  trunk/octave-forge/main/octgpr/DESCRIPTION,
+	  trunk/octave-forge/main/odebvp/DESCRIPTION,
+	  trunk/octave-forge/main/odepkg/DESCRIPTION,
+	  trunk/octave-forge/main/optim/DESCRIPTION,
+	  trunk/octave-forge/main/optiminterp/DESCRIPTION,
+	  trunk/octave-forge/main/outliers/DESCRIPTION,
+	  trunk/octave-forge/main/parallel/DESCRIPTION,
+	  trunk/octave-forge/main/physical-constants/DESCRIPTION,
+	  trunk/octave-forge/main/plot/DESCRIPTION,
+	  trunk/octave-forge/main/signal/DESCRIPTION,
+	  trunk/octave-forge/main/sockets/DESCRIPTION,
+	  trunk/octave-forge/main/specfun/DESCRIPTION,
+	  trunk/octave-forge/main/special-matrix/DESCRIPTION,
+	  trunk/octave-forge/main/splines/DESCRIPTION,
+	  trunk/octave-forge/main/statistics/DESCRIPTION,
+	  trunk/octave-forge/main/strings/DESCRIPTION,
+	  trunk/octave-forge/main/struct/DESCRIPTION,
+	  trunk/octave-forge/main/symbolic/DESCRIPTION,
+	  trunk/octave-forge/main/time/DESCRIPTION,
+	  trunk/octave-forge/main/video/DESCRIPTION,
+	  trunk/octave-forge/main/vrml/DESCRIPTION,
+	  trunk/octave-forge/main/zenity/DESCRIPTION,
+	  trunk/octave-forge/nonfree/arpack/DESCRIPTION,
+	  trunk/octave-forge/nonfree/spline-gsvspl/DESCRIPTION: Updated
+	  release dates
+
+2008-04-12 13:33  xavier98
+
+	* src/configure.base,
+	  trunk/octave-forge/main/database/src/configure.base,
+	  trunk/octave-forge/main/ftp/src/configure.base: Force -fPIC flag
+	  into CFLAGS if defined.
+
+2008-04-09 23:58  xavier98
+
+	* src/ann/bindings/ann_wrap.cpp: Fix ann build error under 64-bit
+	  gcc.
+
+2008-04-07 18:49  xavier98
+
+	* src/ann/bindings/ann_wrap.cpp,
+	  trunk/octave-forge/main/database/src/mysql_wrap.cpp,
+	  trunk/octave-forge/main/database/src/odbc_wrap.cpp,
+	  trunk/octave-forge/main/database/src/postgres_wrap.cpp,
+	  trunk/octave-forge/main/database/src/sqlite3_wrap.cpp,
+	  trunk/octave-forge/main/database/src/tests/helpers.m,
+	  trunk/octave-forge/main/database/src/tests/mysql_high.m,
+	  trunk/octave-forge/main/database/src/tests/odbc_high.m,
+	  trunk/octave-forge/main/database/src/tests/postgres_high.m,
+	  trunk/octave-forge/main/database/src/tests/sqlite_high.m,
+	  trunk/octave-forge/main/ftp/src/ftp_wrap.cpp: Bring SWIG wrappers
+	  up to date.
+	  Minor test fixes.
+
+2008-03-29 02:11  xavier98
+
+	* src/Makeconf.in, src/ann/bindings/Makefile,
+	  src/ann/bindings/ann_wrap.cpp, src/configure.base,
+	  trunk/octave-forge/main/database/src/Makeconf.in,
+	  trunk/octave-forge/main/database/src/Makefile,
+	  trunk/octave-forge/main/database/src/configure.base,
+	  trunk/octave-forge/main/database/src/mysql_wrap.cpp,
+	  trunk/octave-forge/main/database/src/odbc_wrap.cpp,
+	  trunk/octave-forge/main/database/src/postgres_wrap.cpp,
+	  trunk/octave-forge/main/database/src/sqlite3_wrap.cpp,
+	  trunk/octave-forge/main/ftp/src/Makeconf.in,
+	  trunk/octave-forge/main/ftp/src/Makefile,
+	  trunk/octave-forge/main/ftp/src/configure.base,
+	  trunk/octave-forge/main/ftp/src/ftp_wrap.cpp: Submit
+	  pre-generated SWIG targets, so having SWIG installed is not
+	  necessary to build/install packages that depend on it.
+	  
+	  One can regenerate wrappers via
+	  
+	  ./autogen.sh && PATH=/path/to/swig/bin:$PATH ./configure
+	  --with-swig && make
+
+2008-03-15 17:17  xavier98
+
+	* trunk/octave-forge/AUTHORS, ., COPYING, DESCRIPTION, INDEX,
+	  Makefile, PKG_ADD, inst, src, src/Makeconf.in, src/Makefile,
+	  src/README, src/ann, src/ann/Copyright.txt, src/ann/License.txt,
+	  src/ann/MS_Win32, src/ann/MS_Win32/Ann.sln,
+	  src/ann/MS_Win32/Ann.sln.old, src/ann/MS_Win32/Makefile,
+	  src/ann/MS_Win32/ann2fig,
+	  src/ann/MS_Win32/ann2fig/ann2fig.vcproj,
+	  src/ann/MS_Win32/ann2fig/ann2fig.vcproj.7.10.old,
+	  src/ann/MS_Win32/dll, src/ann/MS_Win32/dll/dll.vcproj,
+	  src/ann/MS_Win32/dll/dll.vcproj.7.10.old,
+	  src/ann/MS_Win32/sample, src/ann/MS_Win32/sample/sample.vcproj,
+	  src/ann/MS_Win32/sample/sample.vcproj.7.10.old,
+	  src/ann/MS_Win32/test, src/ann/MS_Win32/test/test.vcproj,
+	  src/ann/MS_Win32/test/test.vcproj.7.10.old, src/ann/Make-config,
+	  src/ann/Makefile, src/ann/ReadMe.txt, src/ann/ann2fig,
+	  src/ann/ann2fig/Makefile, src/ann/ann2fig/ann2fig.cpp,
+	  src/ann/bindings, src/ann/bindings/Makefile,
+	  src/ann/bindings/ann.i, src/ann/bindings/tests,
+	  src/ann/bindings/tests/octave,
+	  src/ann/bindings/tests/octave/basic.m,
+	  src/ann/bindings/tests/octave/bd_tree.m,
+	  src/ann/bindings/tests/octave/empty.m,
+	  src/ann/bindings/tests/octave/fatal.m,
+	  src/ann/bindings/tests/octave/kd_tree.m, src/ann/doc,
+	  src/ann/doc/ANNmanual.pdf, src/ann/include, src/ann/include/ANN,
+	  src/ann/include/ANN/ANN.h, src/ann/include/ANN/ANNperf.h,
+	  src/ann/include/ANN/ANNx.h, src/ann/lib, src/ann/lib/empty-file,
+	  src/ann/sample, src/ann/sample/Makefile,
+	  src/ann/sample/ann_sample.cpp, src/ann/sample/data.pts,
+	  src/ann/sample/query.pts, src/ann/sample/sample.save,
+	  src/ann/src, src/ann/src/ANN.cpp, src/ann/src/Makefile,
+	  src/ann/src/bd_fix_rad_search.cpp, src/ann/src/bd_pr_search.cpp,
+	  src/ann/src/bd_search.cpp, src/ann/src/bd_tree.cpp,
+	  src/ann/src/bd_tree.h, src/ann/src/brute.cpp,
+	  src/ann/src/kd_dump.cpp, src/ann/src/kd_fix_rad_search.cpp,
+	  src/ann/src/kd_fix_rad_search.h, src/ann/src/kd_pr_search.cpp,
+	  src/ann/src/kd_pr_search.h, src/ann/src/kd_search.cpp,
+	  src/ann/src/kd_search.h, src/ann/src/kd_split.cpp,
+	  src/ann/src/kd_split.h, src/ann/src/kd_tree.cpp,
+	  src/ann/src/kd_tree.h, src/ann/src/kd_util.cpp,
+	  src/ann/src/kd_util.h, src/ann/src/perf.cpp,
+	  src/ann/src/pr_queue.h, src/ann/src/pr_queue_k.h, src/ann/test,
+	  src/ann/test/Makefile, src/ann/test/ann_test.cpp,
+	  src/ann/test/rand.cpp, src/ann/test/rand.h,
+	  src/ann/test/test1-data.pts, src/ann/test/test1-query.pts,
+	  src/ann/test/test1.in, src/ann/test/test1.save,
+	  src/ann/test/test2-data.pts, src/ann/test/test2-query.pts,
+	  src/ann/test/test2.in, src/ann/test/test2.save, src/autogen.sh,
+	  src/configure.base: Add ann package.
+

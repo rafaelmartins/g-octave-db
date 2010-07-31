@@ -1,0 +1,22 @@
+try
+  __jhandles_exit ();
+  atexit ("__jhandles_exit", false);
+catch
+  warning("Failed to remove atexit command in jhandles");
+end_try_catch
+
+dispatch ("get", "any");
+dispatch ("set", "any");
+dispatch ("ishandle", "any");
+dispatch ("__go_figure__", "any");
+dispatch ("__go_delete__", "any");
+dispatch ("__go_axes__", "any");
+dispatch ("__go_axes_init__", "any");
+dispatch ("__go_text__", "any");
+dispatch ("__go_surface__", "any");
+dispatch ("__go_image__", "any");
+dispatch ("__go_patch__", "any");
+dispatch ("__go_line__", "any");
+dispatch ("__go_execute_callback__", "any");
+
+java_invoke ("java.lang.System", "clearProperty", "octave.jhandles.path");

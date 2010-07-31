@@ -1,0 +1,435 @@
+# Automatically generated file --- DO NOT EDIT
+2009-06-07 09:53  hauberg
+
+	* trunk/octave-forge/extra/NaN/DESCRIPTION,
+	  trunk/octave-forge/extra/Windows/DESCRIPTION,
+	  trunk/octave-forge/extra/ad/DESCRIPTION,
+	  trunk/octave-forge/extra/bim/DESCRIPTION,
+	  trunk/octave-forge/extra/bugfix-3.0.5/DESCRIPTION,
+	  trunk/octave-forge/extra/engine/DESCRIPTION,
+	  trunk/octave-forge/extra/fpl/DESCRIPTION,
+	  trunk/octave-forge/extra/generate_html/inst/generate_package_html.m,
+	  trunk/octave-forge/extra/generate_html/inst/private/mk_function_dir.m,
+	  trunk/octave-forge/extra/graceplot/DESCRIPTION,
+	  trunk/octave-forge/extra/msh/DESCRIPTION,
+	  trunk/octave-forge/extra/multicore/DESCRIPTION,
+	  trunk/octave-forge/extra/nurbs/DESCRIPTION,
+	  trunk/octave-forge/extra/ocs/DESCRIPTION,
+	  trunk/octave-forge/extra/oct2mat/DESCRIPTION,
+	  trunk/octave-forge/extra/symband/DESCRIPTION,
+	  trunk/octave-forge/language/es_CO/DESCRIPTION,
+	  trunk/octave-forge/main/audio/DESCRIPTION,
+	  trunk/octave-forge/main/control/DESCRIPTION, DESCRIPTION,
+	  trunk/octave-forge/main/general/DESCRIPTION,
+	  trunk/octave-forge/main/image/DESCRIPTION,
+	  trunk/octave-forge/main/info-theory/DESCRIPTION,
+	  trunk/octave-forge/main/io/DESCRIPTION,
+	  trunk/octave-forge/main/miscellaneous/DESCRIPTION,
+	  trunk/octave-forge/main/odepkg/DESCRIPTION,
+	  trunk/octave-forge/main/signal/DESCRIPTION,
+	  trunk/octave-forge/main/statistics/DESCRIPTION,
+	  trunk/octave-forge/main/symbolic/DESCRIPTION,
+	  trunk/octave-forge/main/vrml/DESCRIPTION: Update version numbers
+
+2009-05-24 11:17  rlaboiss
+
+	* inst/__fetch_google__.m: Fix the expected data for the Google
+	  stock fetch
+
+2008-12-03 00:49  wsloand
+
+	* inst/effrr.m: effrr.m: fix function name
+
+2008-10-01 09:59  adb014
+
+	* trunk/octave-forge/main/INDEX,
+	  trunk/octave-forge/main/control/INDEX,
+	  trunk/octave-forge/main/control/Makefile,
+	  trunk/octave-forge/main/control/doc,
+	  trunk/octave-forge/main/control/doc/Makefile,
+	  trunk/octave-forge/main/control/doc/OCSTreport,
+	  trunk/octave-forge/main/control/doc/control.txi,
+	  trunk/octave-forge/main/control/doc/csrefcard.lt,
+	  trunk/octave-forge/main/control/inst/DEMOcontrol.m,
+	  trunk/octave-forge/main/control/inst/__abcddims__.m,
+	  trunk/octave-forge/main/control/inst/__bodquist__.m,
+	  trunk/octave-forge/main/control/inst/__freqresp__.m,
+	  trunk/octave-forge/main/control/inst/__outlist__.m,
+	  trunk/octave-forge/main/control/inst/__stepimp__.m,
+	  trunk/octave-forge/main/control/inst/__syschnamesl__.m,
+	  trunk/octave-forge/main/control/inst/__sysconcat__.m,
+	  trunk/octave-forge/main/control/inst/__syscont_disc__.m,
+	  trunk/octave-forge/main/control/inst/__sysdefioname__.m,
+	  trunk/octave-forge/main/control/inst/__sysdefstname__.m,
+	  trunk/octave-forge/main/control/inst/__sysgroupn__.m,
+	  trunk/octave-forge/main/control/inst/__tf2sysl__.m,
+	  trunk/octave-forge/main/control/inst/__tfl__.m,
+	  trunk/octave-forge/main/control/inst/__zgpbal__.m,
+	  trunk/octave-forge/main/control/inst/__zp2ssg2__.m,
+	  trunk/octave-forge/main/control/inst/abcddim.m,
+	  trunk/octave-forge/main/control/inst/analdemo.m,
+	  trunk/octave-forge/main/control/inst/are.m,
+	  trunk/octave-forge/main/control/inst/axis2dlim.m,
+	  trunk/octave-forge/main/control/inst/bddemo.m,
+	  trunk/octave-forge/main/control/inst/bode.m,
+	  trunk/octave-forge/main/control/inst/bode_bounds.m,
+	  trunk/octave-forge/main/control/inst/buildssic.m,
+	  trunk/octave-forge/main/control/inst/c2d.m,
+	  trunk/octave-forge/main/control/inst/controldemo.m,
+	  trunk/octave-forge/main/control/inst/ctrb.m,
+	  trunk/octave-forge/main/control/inst/d2c.m,
+	  trunk/octave-forge/main/control/inst/damp.m,
+	  trunk/octave-forge/main/control/inst/dare.m,
+	  trunk/octave-forge/main/control/inst/dcgain.m,
+	  trunk/octave-forge/main/control/inst/dezero.m,
+	  trunk/octave-forge/main/control/inst/dgkfdemo.m,
+	  trunk/octave-forge/main/control/inst/dgram.m,
+	  trunk/octave-forge/main/control/inst/dhinfdemo.m,
+	  trunk/octave-forge/main/control/inst/dkalman.m,
+	  trunk/octave-forge/main/control/inst/dlqe.m,
+	  trunk/octave-forge/main/control/inst/dlqg.m,
+	  trunk/octave-forge/main/control/inst/dlqr.m,
+	  trunk/octave-forge/main/control/inst/dlyap.m,
+	  trunk/octave-forge/main/control/inst/dmr2d.m,
+	  trunk/octave-forge/main/control/inst/dre.m,
+	  trunk/octave-forge/main/control/inst/fir2sys.m,
+	  trunk/octave-forge/main/control/inst/frdemo.m,
+	  trunk/octave-forge/main/control/inst/freqchkw.m,
+	  trunk/octave-forge/main/control/inst/gram.m,
+	  trunk/octave-forge/main/control/inst/h2norm.m,
+	  trunk/octave-forge/main/control/inst/h2syn.m,
+	  trunk/octave-forge/main/control/inst/hinf_ctr.m,
+	  trunk/octave-forge/main/control/inst/hinfdemo.m,
+	  trunk/octave-forge/main/control/inst/hinfnorm.m,
+	  trunk/octave-forge/main/control/inst/hinfsyn.m,
+	  trunk/octave-forge/main/control/inst/hinfsyn_chk.m,
+	  trunk/octave-forge/main/control/inst/hinfsyn_ric.m,
+	  trunk/octave-forge/main/control/inst/impulse.m,
+	  trunk/octave-forge/main/control/inst/is_abcd.m,
+	  trunk/octave-forge/main/control/inst/is_controllable.m,
+	  trunk/octave-forge/main/control/inst/is_detectable.m,
+	  trunk/octave-forge/main/control/inst/is_dgkf.m,
+	  trunk/octave-forge/main/control/inst/is_digital.m,
+	  trunk/octave-forge/main/control/inst/is_observable.m,
+	  trunk/octave-forge/main/control/inst/is_sample.m,
+	  trunk/octave-forge/main/control/inst/is_signal_list.m,
+	  trunk/octave-forge/main/control/inst/is_siso.m,
+	  trunk/octave-forge/main/control/inst/is_stabilizable.m,
+	  trunk/octave-forge/main/control/inst/is_stable.m,
+	  trunk/octave-forge/main/control/inst/jet707.m,
+	  trunk/octave-forge/main/control/inst/lqe.m,
+	  trunk/octave-forge/main/control/inst/lqg.m,
+	  trunk/octave-forge/main/control/inst/lqr.m,
+	  trunk/octave-forge/main/control/inst/lsim.m,
+	  trunk/octave-forge/main/control/inst/ltifr.m,
+	  trunk/octave-forge/main/control/inst/lyap.m,
+	  trunk/octave-forge/main/control/inst/minfo.m,
+	  trunk/octave-forge/main/control/inst/moddemo.m,
+	  trunk/octave-forge/main/control/inst/nichols.m,
+	  trunk/octave-forge/main/control/inst/nyquist.m,
+	  trunk/octave-forge/main/control/inst/obsv.m,
+	  trunk/octave-forge/main/control/inst/ord2.m,
+	  trunk/octave-forge/main/control/inst/packedform.m,
+	  trunk/octave-forge/main/control/inst/packsys.m,
+	  trunk/octave-forge/main/control/inst/parallel.m,
+	  trunk/octave-forge/main/control/inst/place.m,
+	  trunk/octave-forge/main/control/inst/prompt.m,
+	  trunk/octave-forge/main/control/inst/pzmap.m,
+	  trunk/octave-forge/main/control/inst/qzval.m,
+	  trunk/octave-forge/main/control/inst/rldemo.m,
+	  trunk/octave-forge/main/control/inst/rlocus.m,
+	  trunk/octave-forge/main/control/inst/rotg.m,
+	  trunk/octave-forge/main/control/inst/run_cmd.m,
+	  trunk/octave-forge/main/control/inst/series.m,
+	  trunk/octave-forge/main/control/inst/sortcom.m,
+	  trunk/octave-forge/main/control/inst/ss.m,
+	  trunk/octave-forge/main/control/inst/ss2sys.m,
+	  trunk/octave-forge/main/control/inst/ss2tf.m,
+	  trunk/octave-forge/main/control/inst/ss2zp.m,
+	  trunk/octave-forge/main/control/inst/starp.m,
+	  trunk/octave-forge/main/control/inst/step.m,
+	  trunk/octave-forge/main/control/inst/strappend.m,
+	  trunk/octave-forge/main/control/inst/swap.m,
+	  trunk/octave-forge/main/control/inst/swapcols.m,
+	  trunk/octave-forge/main/control/inst/swaprows.m,
+	  trunk/octave-forge/main/control/inst/sys2fir.m,
+	  trunk/octave-forge/main/control/inst/sys2ss.m,
+	  trunk/octave-forge/main/control/inst/sys2tf.m,
+	  trunk/octave-forge/main/control/inst/sys2zp.m,
+	  trunk/octave-forge/main/control/inst/sysadd.m,
+	  trunk/octave-forge/main/control/inst/sysappend.m,
+	  trunk/octave-forge/main/control/inst/syschnames.m,
+	  trunk/octave-forge/main/control/inst/syschtsam.m,
+	  trunk/octave-forge/main/control/inst/sysconnect.m,
+	  trunk/octave-forge/main/control/inst/syscont.m,
+	  trunk/octave-forge/main/control/inst/sysdimensions.m,
+	  trunk/octave-forge/main/control/inst/sysdisc.m,
+	  trunk/octave-forge/main/control/inst/sysdup.m,
+	  trunk/octave-forge/main/control/inst/sysgetsignals.m,
+	  trunk/octave-forge/main/control/inst/sysgettsam.m,
+	  trunk/octave-forge/main/control/inst/sysgettype.m,
+	  trunk/octave-forge/main/control/inst/sysgroup.m,
+	  trunk/octave-forge/main/control/inst/sysidx.m,
+	  trunk/octave-forge/main/control/inst/sysmin.m,
+	  trunk/octave-forge/main/control/inst/sysmult.m,
+	  trunk/octave-forge/main/control/inst/sysout.m,
+	  trunk/octave-forge/main/control/inst/sysprune.m,
+	  trunk/octave-forge/main/control/inst/sysreorder.m,
+	  trunk/octave-forge/main/control/inst/sysrepdemo.m,
+	  trunk/octave-forge/main/control/inst/sysscale.m,
+	  trunk/octave-forge/main/control/inst/syssetsignals.m,
+	  trunk/octave-forge/main/control/inst/syssub.m,
+	  trunk/octave-forge/main/control/inst/sysupdate.m,
+	  trunk/octave-forge/main/control/inst/tf.m,
+	  trunk/octave-forge/main/control/inst/tf2ss.m,
+	  trunk/octave-forge/main/control/inst/tf2sys.m,
+	  trunk/octave-forge/main/control/inst/tf2zp.m,
+	  trunk/octave-forge/main/control/inst/tfout.m,
+	  trunk/octave-forge/main/control/inst/tzero.m,
+	  trunk/octave-forge/main/control/inst/tzero2.m,
+	  trunk/octave-forge/main/control/inst/ugain.m,
+	  trunk/octave-forge/main/control/inst/unpacksys.m,
+	  trunk/octave-forge/main/control/inst/wgt1o.m,
+	  trunk/octave-forge/main/control/inst/zgfmul.m,
+	  trunk/octave-forge/main/control/inst/zgfslv.m,
+	  trunk/octave-forge/main/control/inst/zginit.m,
+	  trunk/octave-forge/main/control/inst/zgreduce.m,
+	  trunk/octave-forge/main/control/inst/zgrownorm.m,
+	  trunk/octave-forge/main/control/inst/zgscal.m,
+	  trunk/octave-forge/main/control/inst/zgsgiv.m,
+	  trunk/octave-forge/main/control/inst/zgshsr.m,
+	  trunk/octave-forge/main/control/inst/zp.m,
+	  trunk/octave-forge/main/control/inst/zp2ss.m,
+	  trunk/octave-forge/main/control/inst/zp2sys.m,
+	  trunk/octave-forge/main/control/inst/zp2tf.m,
+	  trunk/octave-forge/main/control/inst/zpout.m, DESCRIPTION,
+	  inst/fv.m, inst/fvl.m, inst/irr.m, inst/nper.m, inst/npv.m,
+	  inst/pmt.m, inst/pv.m, inst/pvl.m, inst/rate.m, inst/vol.m,
+	  trunk/octave-forge/main/quaternion,
+	  trunk/octave-forge/main/quaternion/COPYING,
+	  trunk/octave-forge/main/quaternion/DESCRIPTION,
+	  trunk/octave-forge/main/quaternion/doc,
+	  trunk/octave-forge/main/quaternion/doc/quaternion.ps,
+	  trunk/octave-forge/main/quaternion/inst,
+	  trunk/octave-forge/main/quaternion/inst/demoquat.m,
+	  trunk/octave-forge/main/quaternion/inst/qconj.m,
+	  trunk/octave-forge/main/quaternion/inst/qcoordinate_plot.m,
+	  trunk/octave-forge/main/quaternion/inst/qderiv.m,
+	  trunk/octave-forge/main/quaternion/inst/qderivmat.m,
+	  trunk/octave-forge/main/quaternion/inst/qinv.m,
+	  trunk/octave-forge/main/quaternion/inst/qmult.m,
+	  trunk/octave-forge/main/quaternion/inst/qtrans.m,
+	  trunk/octave-forge/main/quaternion/inst/qtransv.m,
+	  trunk/octave-forge/main/quaternion/inst/qtransvmat.m,
+	  trunk/octave-forge/main/quaternion/inst/quaternion.m: Import
+	  control, quaternion and finance packages from Octave
+
+2008-08-31 16:55  wsloand
+
+	* DESCRIPTION, inst/__fetch_google__.m, inst/fetch.m: Competed
+	  adding google
+
+2008-08-31 15:59  wsloand
+
+	* inst/__fetch_yahoo__.m, inst/fetch.m, inst/google.m,
+	  inst/yahoo.m: Updated fetch to modularize based on the source
+	  (for better coding and
+	  in preparation for objects)
+
+2008-08-17 16:58  wsloand
+
+	* DESCRIPTION, inst/fetch.m, inst/yahoo.m: added fetch and yahoo
+	  commands (like in Matlab datafeed toolbox)
+
+2008-05-18 04:43  wsloand
+
+	* inst/taxedrr.m: taxedrr: added tests
+
+2008-04-29 17:52  hauberg
+
+	* trunk/octave-forge/extra/NaN/DESCRIPTION,
+	  trunk/octave-forge/extra/Windows/DESCRIPTION,
+	  trunk/octave-forge/extra/ad/DESCRIPTION,
+	  trunk/octave-forge/extra/bim/DESCRIPTION,
+	  trunk/octave-forge/extra/civil/DESCRIPTION,
+	  trunk/octave-forge/extra/engine/DESCRIPTION,
+	  trunk/octave-forge/extra/fpl/DESCRIPTION,
+	  trunk/octave-forge/extra/graceplot/DESCRIPTION,
+	  trunk/octave-forge/extra/integration/DESCRIPTION,
+	  trunk/octave-forge/extra/java/DESCRIPTION,
+	  trunk/octave-forge/extra/jhandles/DESCRIPTION,
+	  trunk/octave-forge/extra/mapping/DESCRIPTION,
+	  trunk/octave-forge/extra/msh/DESCRIPTION,
+	  trunk/octave-forge/extra/multicore/DESCRIPTION,
+	  trunk/octave-forge/extra/ocs/DESCRIPTION,
+	  trunk/octave-forge/extra/pdb/DESCRIPTION,
+	  trunk/octave-forge/extra/secs1d/DESCRIPTION,
+	  trunk/octave-forge/extra/secs2d/DESCRIPTION,
+	  trunk/octave-forge/extra/soctcl/DESCRIPTION,
+	  trunk/octave-forge/extra/symband/DESCRIPTION,
+	  trunk/octave-forge/extra/triangular/DESCRIPTION,
+	  trunk/octave-forge/extra/tsa/DESCRIPTION,
+	  trunk/octave-forge/extra/xraylib/DESCRIPTION,
+	  trunk/octave-forge/language/pt_BR/DESCRIPTION,
+	  trunk/octave-forge/main/ann/DESCRIPTION,
+	  trunk/octave-forge/main/audio/DESCRIPTION,
+	  trunk/octave-forge/main/bioinfo/DESCRIPTION,
+	  trunk/octave-forge/main/combinatorics/DESCRIPTION,
+	  trunk/octave-forge/main/comm/DESCRIPTION,
+	  trunk/octave-forge/main/control/DESCRIPTION,
+	  trunk/octave-forge/main/data-smoothing/DESCRIPTION,
+	  trunk/octave-forge/main/database/DESCRIPTION,
+	  trunk/octave-forge/main/econometrics/DESCRIPTION, DESCRIPTION,
+	  trunk/octave-forge/main/fixed/DESCRIPTION,
+	  trunk/octave-forge/main/ftp/DESCRIPTION,
+	  trunk/octave-forge/main/ga/DESCRIPTION,
+	  trunk/octave-forge/main/general/DESCRIPTION,
+	  trunk/octave-forge/main/ident/DESCRIPTION,
+	  trunk/octave-forge/main/image/DESCRIPTION,
+	  trunk/octave-forge/main/info-theory/DESCRIPTION,
+	  trunk/octave-forge/main/io/DESCRIPTION,
+	  trunk/octave-forge/main/irsa/DESCRIPTION,
+	  trunk/octave-forge/main/linear-algebra/DESCRIPTION,
+	  trunk/octave-forge/main/miscellaneous/DESCRIPTION,
+	  trunk/octave-forge/main/missing-functions/DESCRIPTION,
+	  trunk/octave-forge/main/nnet/DESCRIPTION,
+	  trunk/octave-forge/main/octcdf/DESCRIPTION,
+	  trunk/octave-forge/main/octgpr/DESCRIPTION,
+	  trunk/octave-forge/main/odebvp/DESCRIPTION,
+	  trunk/octave-forge/main/odepkg/DESCRIPTION,
+	  trunk/octave-forge/main/optim/DESCRIPTION,
+	  trunk/octave-forge/main/optiminterp/DESCRIPTION,
+	  trunk/octave-forge/main/outliers/DESCRIPTION,
+	  trunk/octave-forge/main/parallel/DESCRIPTION,
+	  trunk/octave-forge/main/physical-constants/DESCRIPTION,
+	  trunk/octave-forge/main/plot/DESCRIPTION,
+	  trunk/octave-forge/main/signal/DESCRIPTION,
+	  trunk/octave-forge/main/sockets/DESCRIPTION,
+	  trunk/octave-forge/main/specfun/DESCRIPTION,
+	  trunk/octave-forge/main/special-matrix/DESCRIPTION,
+	  trunk/octave-forge/main/splines/DESCRIPTION,
+	  trunk/octave-forge/main/statistics/DESCRIPTION,
+	  trunk/octave-forge/main/strings/DESCRIPTION,
+	  trunk/octave-forge/main/struct/DESCRIPTION,
+	  trunk/octave-forge/main/symbolic/DESCRIPTION,
+	  trunk/octave-forge/main/time/DESCRIPTION,
+	  trunk/octave-forge/main/video/DESCRIPTION,
+	  trunk/octave-forge/main/vrml/DESCRIPTION,
+	  trunk/octave-forge/main/zenity/DESCRIPTION,
+	  trunk/octave-forge/nonfree/arpack/DESCRIPTION,
+	  trunk/octave-forge/nonfree/spline-gsvspl/DESCRIPTION: Updated
+	  release dates
+
+2008-04-27 03:07  wsloand
+
+	* inst/taxedrr.m: taxedrr.m: new function
+
+2008-04-27 02:51  wsloand
+
+	* DESCRIPTION, inst/effrr.m, inst/mirr.m, inst/nomrr.m: effrr.m,
+	  mirr.m, nomrr.m: New functions
+
+2008-04-06 23:36  adb014
+
+	* trunk/octave-forge/extra/NaN/DESCRIPTION,
+	  trunk/octave-forge/extra/Windows/DESCRIPTION,
+	  trunk/octave-forge/extra/ad/DESCRIPTION,
+	  trunk/octave-forge/extra/bim/DESCRIPTION,
+	  trunk/octave-forge/extra/civil/DESCRIPTION,
+	  trunk/octave-forge/extra/engine/DESCRIPTION,
+	  trunk/octave-forge/extra/fpl/DESCRIPTION,
+	  trunk/octave-forge/extra/graceplot/DESCRIPTION,
+	  trunk/octave-forge/extra/integration/DESCRIPTION,
+	  trunk/octave-forge/extra/java/DESCRIPTION,
+	  trunk/octave-forge/extra/jhandles/DESCRIPTION,
+	  trunk/octave-forge/extra/mapping/DESCRIPTION,
+	  trunk/octave-forge/extra/msh/DESCRIPTION,
+	  trunk/octave-forge/extra/multicore/DESCRIPTION,
+	  trunk/octave-forge/extra/pdb/DESCRIPTION,
+	  trunk/octave-forge/extra/secs1d/DESCRIPTION,
+	  trunk/octave-forge/extra/secs2d/DESCRIPTION,
+	  trunk/octave-forge/extra/soctcl/DESCRIPTION,
+	  trunk/octave-forge/extra/symband/DESCRIPTION,
+	  trunk/octave-forge/extra/triangular/DESCRIPTION,
+	  trunk/octave-forge/extra/tsa/DESCRIPTION,
+	  trunk/octave-forge/extra/xraylib/DESCRIPTION,
+	  trunk/octave-forge/language/pt_BR/DESCRIPTION,
+	  trunk/octave-forge/main/audio/DESCRIPTION,
+	  trunk/octave-forge/main/combinatorics/DESCRIPTION,
+	  trunk/octave-forge/main/comm/DESCRIPTION,
+	  trunk/octave-forge/main/control/DESCRIPTION, DESCRIPTION,
+	  trunk/octave-forge/main/fixed/DESCRIPTION,
+	  trunk/octave-forge/main/fixed/src/configure.base,
+	  trunk/octave-forge/main/general/DESCRIPTION,
+	  trunk/octave-forge/main/gsl/DESCRIPTION,
+	  trunk/octave-forge/main/ident/DESCRIPTION,
+	  trunk/octave-forge/main/image/DESCRIPTION,
+	  trunk/octave-forge/main/info-theory/DESCRIPTION,
+	  trunk/octave-forge/main/io/DESCRIPTION,
+	  trunk/octave-forge/main/irsa/DESCRIPTION,
+	  trunk/octave-forge/main/linear-algebra/DESCRIPTION,
+	  trunk/octave-forge/main/miscellaneous/DESCRIPTION,
+	  trunk/octave-forge/main/nnet/DESCRIPTION,
+	  trunk/octave-forge/main/octcdf/DESCRIPTION,
+	  trunk/octave-forge/main/odebvp/DESCRIPTION,
+	  trunk/octave-forge/main/optiminterp/DESCRIPTION,
+	  trunk/octave-forge/main/outliers/DESCRIPTION,
+	  trunk/octave-forge/main/parallel/DESCRIPTION,
+	  trunk/octave-forge/main/physical-constants/DESCRIPTION,
+	  trunk/octave-forge/main/plot/DESCRIPTION,
+	  trunk/octave-forge/main/signal/DESCRIPTION,
+	  trunk/octave-forge/main/statistics/DESCRIPTION,
+	  trunk/octave-forge/main/strings/DESCRIPTION,
+	  trunk/octave-forge/main/struct/DESCRIPTION,
+	  trunk/octave-forge/main/symbolic/DESCRIPTION,
+	  trunk/octave-forge/main/time/DESCRIPTION,
+	  trunk/octave-forge/main/vrml/DESCRIPTION,
+	  trunk/octave-forge/main/zenity/DESCRIPTION,
+	  trunk/octave-forge/nonfree/arpack/DESCRIPTION,
+	  trunk/octave-forge/nonfree/spline-gsvspl/DESCRIPTION: Update
+	  version numbers, release dates, and news in preparation for
+	  release
+
+2008-03-26 03:19  wsloand
+
+	* DESCRIPTION, trunk/octave-forge/main/missing-functions,
+	  trunk/octave-forge/main/missing-functions/COPYING,
+	  trunk/octave-forge/main/missing-functions/DESCRIPTION,
+	  trunk/octave-forge/main/missing-functions/inst,
+	  trunk/octave-forge/main/missing-functions/inst/__functionstatus__.m,
+	  trunk/octave-forge/main/missing-functions/inst/__matlabfunctionlist__.m,
+	  trunk/octave-forge/main/missing-functions/inst/__missingmatlab2txt__.m,
+	  trunk/octave-forge/main/missing-functions/inst/missingfunctionstatus.m,
+	  trunk/octave-forge/main/missing-functions/inst/missingmatlabfunctions.m,
+	  trunk/octave-forge/main/missing-functions/missingmatlab.css:
+	  Missing functions: find functions missing from Octave
+
+2008-02-25 03:17  wsloand
+
+	* inst/rsindex.m: rsindex.m: new function
+
+2008-02-25 02:52  wsloand
+
+	* inst/bolling.m, inst/hhigh.m, inst/llow.m, inst/negvolidx.m,
+	  inst/onbalvol.m, inst/pointfig.m, inst/posvolidx.m: bolling.m,
+	  posvolidx.m, hhigh.m, onbalvol.m, llow.m,
+	  pointfig.m, negvolidx.m: new functions
+
+2008-02-24 16:24  wsloand
+
+	* inst/movavg.m: movavg.m: made more compatible with matlab, added
+	  tests
+
+2008-02-19 14:40  adb014
+
+	* DESCRIPTION: Fix version numbering of financial package
+
+2008-02-14 11:54  wsloand
+
+	* inst/movavg.m: movavg.m: new function
+
+2008-02-14 04:09  wsloand
+
+	* ., COPYING, DESCRIPTION, inst, inst/dateaxis.m, inst/highlow.m:
+	  Added first functions in the financial toolbox
+

@@ -1,0 +1,248 @@
+# Automatically generated file --- DO NOT EDIT
+2009-06-07 09:53  hauberg
+
+	* trunk/octave-forge/extra/NaN/DESCRIPTION,
+	  trunk/octave-forge/extra/Windows/DESCRIPTION,
+	  trunk/octave-forge/extra/ad/DESCRIPTION,
+	  trunk/octave-forge/extra/bim/DESCRIPTION,
+	  trunk/octave-forge/extra/bugfix-3.0.5/DESCRIPTION,
+	  trunk/octave-forge/extra/engine/DESCRIPTION,
+	  trunk/octave-forge/extra/fpl/DESCRIPTION,
+	  trunk/octave-forge/extra/generate_html/inst/generate_package_html.m,
+	  trunk/octave-forge/extra/generate_html/inst/private/mk_function_dir.m,
+	  trunk/octave-forge/extra/graceplot/DESCRIPTION,
+	  trunk/octave-forge/extra/msh/DESCRIPTION,
+	  trunk/octave-forge/extra/multicore/DESCRIPTION,
+	  trunk/octave-forge/extra/nurbs/DESCRIPTION,
+	  trunk/octave-forge/extra/ocs/DESCRIPTION,
+	  trunk/octave-forge/extra/oct2mat/DESCRIPTION,
+	  trunk/octave-forge/extra/symband/DESCRIPTION, DESCRIPTION,
+	  trunk/octave-forge/main/audio/DESCRIPTION,
+	  trunk/octave-forge/main/control/DESCRIPTION,
+	  trunk/octave-forge/main/financial/DESCRIPTION,
+	  trunk/octave-forge/main/general/DESCRIPTION,
+	  trunk/octave-forge/main/image/DESCRIPTION,
+	  trunk/octave-forge/main/info-theory/DESCRIPTION,
+	  trunk/octave-forge/main/io/DESCRIPTION,
+	  trunk/octave-forge/main/miscellaneous/DESCRIPTION,
+	  trunk/octave-forge/main/odepkg/DESCRIPTION,
+	  trunk/octave-forge/main/signal/DESCRIPTION,
+	  trunk/octave-forge/main/statistics/DESCRIPTION,
+	  trunk/octave-forge/main/symbolic/DESCRIPTION,
+	  trunk/octave-forge/main/vrml/DESCRIPTION: Update version numbers
+
+2009-05-28 19:38  jmencisom
+
+	* help/octave/circshift.es_CO, help/octave/class.es_CO,
+	  help/octave/clc.es_CO, help/octave/clear.es_CO,
+	  help/octave/clearplot.es_CO, help/octave/clf.es_CO,
+	  help/octave/clg.es_CO, help/octave/clock.es_CO,
+	  help/octave/cloglog.es_CO, help/octave/close.es_CO,
+	  help/octave/closeplot.es_CO, help/octave/closereq.es_CO: Spanish
+	  translation ci*, cl*
+
+2009-05-26 13:28  jmencisom
+
+	* help/octave/char.es_CO, help/octave/chi2cdf.es_CO,
+	  help/octave/chi2inv.es_CO, help/octave/chi2pdf.es_CO,
+	  help/octave/chi2rnd.es_CO, help/octave/chisquare_cdf.es_CO,
+	  help/octave/chisquare_inv.es_CO, help/octave/chisquare_pdf.es_CO,
+	  help/octave/chisquare_rnd.es_CO,
+	  help/octave/chisquare_test_homogeneity.es_CO,
+	  help/octave/chisquare_test_independence.es_CO,
+	  help/octave/chol.es_CO, help/octave/chol2inv.es_CO,
+	  help/octave/cholinv.es_CO: Spanish translation ch* commands.
+
+2009-05-22 19:43  jmencisom
+
+	* help/octave/ccolamd.es_CO, help/octave/cd.es_CO,
+	  help/octave/ceil.es_CO, help/octave/cell.es_CO,
+	  help/octave/cell2mat.es_CO, help/octave/cell2struct.es_CO,
+	  help/octave/celldisp.es_CO, help/octave/cellfun.es_CO,
+	  help/octave/cellidx.es_CO, help/octave/cellstr.es_CO,
+	  help/octave/center.es_CO: Spanish translation ce* commands.
+
+2009-05-17 18:22  jmencisom
+
+	* help/octave/c2d.es_CO, help/octave/calendar.es_CO,
+	  help/octave/canonicalize_file_name.es_CO,
+	  help/octave/cart2pol.es_CO, help/octave/cart2sph.es_CO,
+	  help/octave/casesen.es_CO, help/octave/cast.es_CO,
+	  help/octave/cat.es_CO, help/octave/cauchy_cdf.es_CO,
+	  help/octave/cauchy_inv.es_CO, help/octave/cauchy_pdf.es_CO,
+	  help/octave/cauchy_rnd.es_CO, help/octave/caxis.es_CO: Spanish
+	  translation c2d, ca* commands.
+
+2009-05-06 17:48  hauberg
+
+	* trunk/octave-forge/admin/build-www.py,
+	  trunk/octave-forge/doc/htdocs/packages.in, DESCRIPTION: Minor
+	  issue
+
+2009-04-18 08:49  jmencisom
+
+	* src/ayuda.cc: Correction of style in the displayed information
+
+2009-04-18 08:37  jmencisom
+
+	* help/octave/blackman.es_CO, help/octave/blanks.es_CO,
+	  help/octave/blkdiag.es_CO, help/octave/bode.es_CO,
+	  help/octave/bode_bounds.es_CO, help/octave/bone.es_CO,
+	  help/octave/bottom_title.es_CO, help/octave/box.es_CO,
+	  help/octave/brighten.es_CO, help/octave/bsxfun.es_CO,
+	  help/octave/bug_report.es_CO, help/octave/buildssic.es_CO,
+	  help/octave/builtin.es_CO, help/octave/bunzip2.es_CO: Spanish
+	  translation of the remaining b* commands.
+
+2009-04-15 20:48  jmencisom
+
+	* help/octave/bicubic.es_CO, help/octave/bin2dec.es_CO,
+	  help/octave/bincoeff.es_CO, help/octave/binocdf.es_CO,
+	  help/octave/binoinv.es_CO, help/octave/binomial_cdf.es_CO,
+	  help/octave/binomial_inv.es_CO, help/octave/binomial_pdf.es_CO,
+	  help/octave/binomial_rnd.es_CO, help/octave/binopdf.es_CO,
+	  help/octave/binornd.es_CO, help/octave/bitand.es_CO,
+	  help/octave/bitcmp.es_CO, help/octave/bitget.es_CO,
+	  help/octave/bitmax.es_CO, help/octave/bitor.es_CO,
+	  help/octave/bitset.es_CO, help/octave/bitshift.es_CO,
+	  help/octave/bitxor.es_CO: Spanish translation of bi* command
+	  strings
+
+2009-04-13 18:22  jmencisom
+
+	* help/octave/bessel.es_CO, help/octave/besselh.es_CO,
+	  help/octave/besseli.es_CO, help/octave/besselj.es_CO,
+	  help/octave/besselk.es_CO, help/octave/bessely.es_CO,
+	  help/octave/beta.es_CO, help/octave/beta_cdf.es_CO,
+	  help/octave/beta_inv.es_CO, help/octave/beta_pdf.es_CO,
+	  help/octave/beta_rnd.es_CO, help/octave/betacdf.es_CO,
+	  help/octave/betai.es_CO, help/octave/betainc.es_CO,
+	  help/octave/betainv.es_CO, help/octave/betaln.es_CO,
+	  help/octave/betapdf.es_CO, help/octave/betarnd.es_CO: Spanish
+	  translation of bessel* and beta* commands
+
+2009-04-11 18:03  jmencisom
+
+	* help/octave/barh.es_CO, help/octave/bartlett.es_CO,
+	  help/octave/bartlett_test.es_CO, help/octave/base2dec.es_CO,
+	  help/octave/bddemo.es_CO, help/octave/beep.es_CO,
+	  help/octave/beep_on_error.es_CO:
+
+2009-04-11 17:54  jmencisom
+
+	* help/octave/analdemo.es_CO:
+
+2009-04-10 19:15  jmencisom
+
+	* help/octave/balance.es_CO, help/octave/bar.es_CO:
+
+2009-04-10 18:17  jmencisom
+
+	* help/octave/autoload.es_CO, help/octave/automatic_replot.es_CO,
+	  help/octave/autoreg_matrix.es_CO, help/octave/autumn.es_CO,
+	  help/octave/axes.es_CO, help/octave/axis.es_CO,
+	  help/octave/axis2dlim.es_CO: Last a-commands of the Spanish
+	  translation
+
+2009-04-10 09:10  jmencisom
+
+	* help/octave/atan.es_CO, help/octave/atan2.es_CO,
+	  help/octave/atand.es_CO, help/octave/atanh.es_CO,
+	  help/octave/atexit.es_CO, help/octave/autocor.es_CO,
+	  help/octave/autocov.es_CO: New Spanish files
+
+2009-04-10 08:49  jmencisom
+
+	* help/octave/asec.es_CO, help/octave/asech.es_CO,
+	  help/octave/asin.es_CO, help/octave/asind.es_CO,
+	  help/octave/asinh.es_CO, help/octave/assert.es_CO,
+	  help/octave/assignin.es_CO: New Spanish files
+
+2009-04-10 08:19  jmencisom
+
+	* help/octave/area.es_CO:
+
+2009-04-10 08:03  jmencisom
+
+	* help/octave/arg.es_CO, help/octave/argnames.es_CO,
+	  help/octave/argv.es_CO, help/octave/arma_rnd.es_CO,
+	  help/octave/arrayfun.es_CO, help/octave/asctime.es_CO,
+	  help/octave/asecd.es_CO: New spanish files
+
+2009-04-05 17:29  jmencisom
+
+	* help/octave/arch_fit.es_CO, help/octave/arch_rnd.es_CO,
+	  help/octave/arch_test.es_CO, help/octave/are.es_CO,
+	  help/octave/area.es_CO:
+
+2009-04-04 05:00  jmencisom
+
+	* help/octave/anova.es_CO, help/octave/ans.es_CO,
+	  help/octave/any.es_CO, help/octave/append.es_CO:
+
+2009-03-28 09:45  jmencisom
+
+	* help/octave/all.es_CO, help/octave/analdemo.es_CO,
+	  help/octave/ancestor.es_CO, help/octave/and.es_CO,
+	  help/octave/angle.es_CO:
+
+2009-03-28 09:43  jmencisom
+
+	* src/ayuda.cc:
+
+2009-03-28 09:39  jmencisom
+
+	* src/ayuda.cc:
+
+2009-03-26 21:39  jmencisom
+
+	* help/octave/airy.es_CO:
+
+2009-03-26 21:38  jmencisom
+
+	* help/octave/addpath.es_CO:
+
+2009-03-26 20:18  jmencisom
+
+	* help/octave/accumarray.es_CO, help/octave/acos.es_CO,
+	  help/octave/acosd.es_CO, help/octave/acosh.es_CO,
+	  help/octave/acot.es_CO, help/octave/acotd.es_CO,
+	  help/octave/acoth.es_CO, help/octave/acsc.es_CO,
+	  help/octave/acscd.es_CO, help/octave/acsch.es_CO:
+
+2009-03-26 20:17  jmencisom
+
+	* help/octave/abcddim.es_CO, help/octave/abs.es_CO:
+
+2009-03-25 16:47  jmencisom
+
+	* src/Makefile, src/ayuda.cc:
+
+2009-03-25 16:24  jmencisom
+
+	* help/octave, help/octave/abcddim.es_CO, help/octave/abs.es_CO:
+
+2009-03-25 16:12  jmencisom
+
+	* Makefile:
+
+2009-03-25 16:11  jmencisom
+
+	* DESCRIPTION:
+
+2009-03-25 16:10  jmencisom
+
+	* COPYING:
+
+2009-03-25 16:02  jmencisom
+
+	* src:
+
+2009-03-25 16:01  jmencisom
+
+	* help:
+
+2009-03-25 15:56  jmencisom
+
+	* .: First steps of the Spanish translation
+

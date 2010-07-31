@@ -1,0 +1,100 @@
+# Automatically generated file --- DO NOT EDIT
+2009-06-07 09:53  hauberg
+
+	* trunk/octave-forge/extra/NaN/DESCRIPTION,
+	  trunk/octave-forge/extra/Windows/DESCRIPTION,
+	  trunk/octave-forge/extra/ad/DESCRIPTION,
+	  trunk/octave-forge/extra/bim/DESCRIPTION,
+	  trunk/octave-forge/extra/bugfix-3.0.5/DESCRIPTION,
+	  trunk/octave-forge/extra/engine/DESCRIPTION,
+	  trunk/octave-forge/extra/fpl/DESCRIPTION,
+	  inst/generate_package_html.m, inst/private/mk_function_dir.m,
+	  trunk/octave-forge/extra/graceplot/DESCRIPTION,
+	  trunk/octave-forge/extra/msh/DESCRIPTION,
+	  trunk/octave-forge/extra/multicore/DESCRIPTION,
+	  trunk/octave-forge/extra/nurbs/DESCRIPTION,
+	  trunk/octave-forge/extra/ocs/DESCRIPTION,
+	  trunk/octave-forge/extra/oct2mat/DESCRIPTION,
+	  trunk/octave-forge/extra/symband/DESCRIPTION,
+	  trunk/octave-forge/language/es_CO/DESCRIPTION,
+	  trunk/octave-forge/main/audio/DESCRIPTION,
+	  trunk/octave-forge/main/control/DESCRIPTION,
+	  trunk/octave-forge/main/financial/DESCRIPTION,
+	  trunk/octave-forge/main/general/DESCRIPTION,
+	  trunk/octave-forge/main/image/DESCRIPTION,
+	  trunk/octave-forge/main/info-theory/DESCRIPTION,
+	  trunk/octave-forge/main/io/DESCRIPTION,
+	  trunk/octave-forge/main/miscellaneous/DESCRIPTION,
+	  trunk/octave-forge/main/odepkg/DESCRIPTION,
+	  trunk/octave-forge/main/signal/DESCRIPTION,
+	  trunk/octave-forge/main/statistics/DESCRIPTION,
+	  trunk/octave-forge/main/symbolic/DESCRIPTION,
+	  trunk/octave-forge/main/vrml/DESCRIPTION: Update version numbers
+
+2009-05-31 20:23  hauberg
+
+	* inst/generate_package_html.m, inst/get_html_options.m: Generate
+	  license
+
+2009-05-31 15:17  hauberg
+
+	* inst/generate_html_manual.m, inst/generate_package_html.m,
+	  inst/get_html_options.m: Improve package index page
+
+2009-05-30 09:53  hauberg
+
+	* inst/generate_package_html.m: Improve package index page
+
+2009-05-29 08:24  hauberg
+
+	* inst/generate_html_manual.m, inst/generate_package_html.m,
+	  inst/get_html_options.m: Allow the manual to be generated
+
+2009-05-29 07:19  hauberg
+
+	* inst/private/find_package.m: New function for determining which
+	  package a function belongs to
+
+2009-05-26 22:48  cdf
+
+	* inst/generate_package_html.m, inst/get_html_options.m,
+	  inst/private/get_pkg_list_item_filename.m: save pkg descriptions
+	  in separate files
+
+2009-05-26 19:05  hauberg
+
+	* inst/generate_package_html.m, inst/get_html_options.m,
+	  inst/private/get_index_header_title_and_footer.m: Generate a
+	  basic index.html for each package
+
+2009-05-14 20:47  hauberg
+
+	* inst/generate_operators.m, inst/generate_package_html.m,
+	  inst/private/mk_various_dir.m: Support generation of operator
+	  index
+
+2009-05-13 21:52  hauberg
+
+	* inst/generate_html_manual.m, inst/generate_package_html.m:
+	  Simplify API
+
+2009-05-13 13:48  hauberg
+
+	* inst/generate_html_manual.m, inst/generate_package_html.m: Change
+	  order of input arguments (from Carlo de Falco)
+
+2009-05-12 17:29  hauberg
+
+	* ., COPYING, DESCRIPTION, INDEX, inst, inst/generate_alphabet.m,
+	  inst/generate_html_manual.m, inst/generate_operators.m,
+	  inst/generate_package_html.m, inst/get_html_options.m,
+	  inst/html_help_text.m, inst/private,
+	  inst/private/get_header_title_and_footer.m,
+	  inst/private/get_overview_filename.m,
+	  inst/private/get_overview_header_title_and_footer.m,
+	  inst/private/get_root.m, inst/private/get_texi_conf.m,
+	  inst/private/get_txi_files.m, inst/private/mk_chapter_dir.m,
+	  inst/private/mk_function_dir.m, inst/texi2html.m,
+	  inst/txi2index.m, inst/txi2reference.m: Add first revision of
+	  generate_html package
+
