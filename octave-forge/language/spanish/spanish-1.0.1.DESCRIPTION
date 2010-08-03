@@ -1,0 +1,12 @@
+Name: Spanish
+Version: 1.0.1
+Date: 2009-03-25
+Author: Javier Enciso <encisomo@in.tum.de>
+Maintainer: Javier Enciso <encisomo@in.tum.de>
+Title: Spanish translation package
+Description: Spanish package for the construction of native language
+ translations of Octave functions.
+Categories: languages
+Depends: octave (> 2.9.9)
+License: GPL version 2 or later
+Url: http://octave.sf.net
