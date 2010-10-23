@@ -1,0 +1,13 @@
+Name: Parallel
+Version: 2.0.2
+Date: 2010-08-05
+Author: Hayato Fujiwara and Olaf Till <olaf.till@uni-jena.de>
+Maintainer: Hayato Fujiwara and Olaf Till <olaf.till@uni-jena.de>
+Title: Parallel Computing.
+Description: Parallel execution package for cluster computers. For
+ parallel execution on a single machine see e.g. function parcellfun
+ (author: Jaroslav Hajek) in package general.
+Depends: octave (>= 3.0.0)
+Autoload: yes
+License: GPL, see individual files for GPL version
+Url: http://octave.sf.net
