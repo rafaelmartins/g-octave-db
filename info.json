@@ -14,6 +14,8 @@
         "jogl": "", 
         "jpeg-devel": "media-libs/jpeg", 
         "jre": "virtual/jre", 
+        "libcfitsio": "sci-libs/cfitsio", 
+        "libcfitsio-dev": "sci-libs/cfitsio", 
         "libmysqlclient15-dev": "virtual/mysql", 
         "libproj-dev": "sci-libs/proj", 
         "libsqlite3-dev": "dev-db/sqlite:3", 
