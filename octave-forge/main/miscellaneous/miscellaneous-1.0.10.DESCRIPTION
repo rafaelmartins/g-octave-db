@@ -1,0 +1,14 @@
+Name: Miscellaneous
+Version: 1.0.10
+Date: 2010-10-07
+Author: Various Authors
+Maintainer: The Octave Community
+Title: Miscellaneous functions
+Description: Miscellaneous tools that don't fit somewhere else.
+Categories: Miscellaneous
+Depends: octave (>= 2.9.16)
+Autoload: yes
+SystemRequirements: units
+BuildRequires: termcap-devel
+License: GPL version 2 or later
+Url: http://octave.sf.net

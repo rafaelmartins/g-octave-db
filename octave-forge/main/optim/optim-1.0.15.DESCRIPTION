@@ -1,0 +1,11 @@
+Name: Optim
+Version: 1.0.15
+Date: 2010-10-25
+Author: Various Authors
+Maintainer: The Octave Community
+Title: Optimzation.
+Description: Non-linear optimization toolkit.
+Depends: octave (>= 2.9.7), miscellaneous (>= 1.0.10), struct (>= 1.0.8)
+Autoload: yes
+License: GPL version 2 or later and GFDL
+Url: http://octave.sf.net
