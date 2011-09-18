@@ -1,0 +1,15 @@
+Name: FITS
+Version: 1.0.1
+Date: 2011-07-19
+Author: Dirk Schmidt
+Maintainer: Dirk Schmidt
+Title: Reading and writing FITS (Flexible Image Transport System) files.
+Description: The Octave-FITS package provides functions for
+ reading, and writing FITS (Flexible Image Transport System) files. The package supports
+ uses the libcfitsio library.
+Depends: octave (>= 3.4.0)
+Autoload: no
+BuildRequires: libcfitsio-dev
+SystemRequirements: libcfitsio
+License: GPL version 2 or later
+Url: http://octave.sf.net

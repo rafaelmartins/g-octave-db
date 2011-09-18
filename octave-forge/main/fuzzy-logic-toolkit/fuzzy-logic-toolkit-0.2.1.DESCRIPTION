@@ -1,0 +1,11 @@
+Name: fuzzy-logic-toolkit
+Version: 0.2.1
+Date: 2011-6-8
+Author: L. Markowsky <lmarkov@users.sourceforge.net>
+Maintainer: L. Markowsky <lmarkov@users.sourceforge.net>
+Title: Octave Fuzzy Logic Toolkit
+Description: A mostly MATLAB-compatible fuzzy logic toolkit for Octave.
+Depends: octave (>= 3.2.4)
+Autoload: yes
+License: GPL version 2 or later
+Url: http://octave.sf.net

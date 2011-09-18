@@ -1,0 +1,10 @@
+Name: fl-core
+Version: 1.0
+Date: 2011-12-01
+Author: Gianvito Pio and Piero Molino
+Title: Fuzzy Logic Core for Octave
+Maintainer: Gianvito Pio (pio.gianvito@gmail.com) and Piero Molino (piero.molino@gmail.com)
+Description: The package contains code for basic functions in Fuzzy Logic for Octave.
+Autoload: yes
+License: LGPL v3
+Depends: octave (>= 2.9.7)

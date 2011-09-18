@@ -12,7 +12,7 @@
         "grace-devel": "sci-visualization/grace", 
         "gsl-devel": "sci-libs/gsl", 
         "jogl": "", 
-        "jpeg-devel": "media-libs/jpeg", 
+        "jpeg-devel": "virtual/jpeg", 
         "jre": "virtual/jre", 
         "libcfitsio": "sci-libs/cfitsio", 
         "libcfitsio-dev": "sci-libs/cfitsio", 
@@ -41,7 +41,7 @@
         "zenity": "gnome-extra/zenity"
     }, 
     "licenses": {
-        "BSD": "", 
+        "BSD": "BSD", 
         "BSD, GPL2": "BSD GPL-2", 
         "GNU/GPL": "GPL-3", 
         "GPL v2": "GPL-2", 
@@ -54,7 +54,7 @@
         "GPL version 3": "GPL-3", 
         "GPL version 3 and GPL version 2 or later": "GPL-3 GPL-2", 
         "GPL version 3 or later": "GPL-3", 
-        "GPL version 3 or later (PROJ.4 is under MIT license)": "GPL-3", 
+        "GPL version 3 or later (PROJ.4 is under MIT license)": "GPL-3 MIT", 
         "GPL, see individual files for GPL version": "GPL-2 GPL-3", 
         "Public Domain": "public-domain", 
         "See individual files": "BSD GPL-2 GPL-3 public-domain"

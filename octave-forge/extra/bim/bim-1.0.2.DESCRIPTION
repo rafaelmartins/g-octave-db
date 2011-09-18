@@ -1,0 +1,11 @@
+Name: bim
+Version: 1.0.2
+Date: 2011-09-09
+Author: Carlo de Falco, Culpo Massimiliano
+Maintainer: Culpo Massimiliano
+Title: PDE Solver using a Finite Element/Finite Volume approach
+Description: Package for solving Diffusion Advection Reaction (DAR) Partial Differential Equations based on the Finite Volume Scharfetter-Gummel (FVSG) method a.k.a Box Integration Method (BIM)
+Depends: octave (>= 3.2.0), fpl, msh 
+Autoload: no
+License: GPL version 2 or later
+SVNRelease: 8521
