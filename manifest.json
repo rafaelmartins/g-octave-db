@@ -1,4 +1,5 @@
 {
+  "NaN-2.0.4": "73a2bd26052e05f74fec5ea16757dc47192752bd", 
   "actuarial-1.1.0": "628bb2d38420a51f7ff4c68d3d6d8747ac9b3a24", 
   "ad-1.0.6": "d6b1c88ae1b1f91c21b6c76b67918151f0e2053b", 
   "ann-1.0.2": "c1a95cc06b7c394397b54a96eeb1bdd269ff461e", 
@@ -75,6 +76,7 @@
   "ga-0.9.7": "bc56cfe84eacc93940e5f45b23e99d0787980ddd", 
   "ga-0.9.8": "d1ce74a6a9d8ac5c184a265ea05ea21a4ceaf728", 
   "general-1.1.3": "6680376740110b932c1c3bba4df5bcaf553a37c3", 
+  "general-1.2.0": "19d37759c4181c08810a4ed3e0ff1530d02b105e", 
   "general-1.2.1": "7b7125d6bc5bd40646ba3849189a6ff5b5a4d7da", 
   "general-1.2.2": "110ad0d10e6b29dfdc4edb7df78a1f37ea1dcf5a", 
   "general-1.3.0": "5ba809e59852eae149c202769b77718d8eb11766", 
@@ -102,6 +104,7 @@
   "graceplot-1.0.8": "031ebe2f6d5443bc160ce805fa27f8007f46f392", 
   "gsl-1.0.8": "2d37f2081428d5c0cd115cb184748f1e97050994", 
   "ident-1.0.7": "b39e701b697566d7f5f71973e6a6cf8ddcb8444b", 
+  "image-1.0.11": "7796019723520632a62fda9a1d8afcb18fa0d61f", 
   "image-1.0.12": "9dba107fa714e473e54320c141e0e0f6b054857d", 
   "image-1.0.13": "f9fc593d9d85d1ae39cddb40f2816b45e5cc3d01", 
   "image-1.0.14": "9bb270f5efd029d3f640ff0ed97b5f236cae3000", 
@@ -109,6 +112,7 @@
   "informationtheory-0.1.8": "4744604a107927c431abb7c5eca4e7f4d34f6ef7", 
   "integration-1.0.7": "0ef0b71baec46a8acd48508406a981533d34797a", 
   "io-1.0.10": "2ceca061e63b49994010a17127d25dec2b976306", 
+  "io-1.0.11": "769ecdd44a1ed658ec159624697a993a16f923b5", 
   "io-1.0.12": "c0c983c04e2233a7361db7feaab99af3e28be6a2", 
   "io-1.0.13": "a12a1db222dce5f1f2125160effbe4f578c25a63", 
   "io-1.0.14": "55533b469732ac8cb3062e2bdf9699febfea2825", 
@@ -204,6 +208,7 @@
   "openmpi_ext-1.0.1": "f87b3d614d7781bce1f5a1c14bfe4acef7ce2226", 
   "openmpi_ext-1.0.2": "e25a25a627b92d70bf5f8b4523389d4bb9617ce3", 
   "openmpi_ext-1.1.0": "212c08d3e0cc39a418f698842c988ce9ea652c8c", 
+  "optim-1.0.10": "3e6f1bc6ca6b33a81755fc5d7160ebc2c6dbf800", 
   "optim-1.0.12": "7c629163aa86f42d6268a1ad225e5431c1a193ca", 
   "optim-1.0.15": "c2074acb7dc0cbc2b2d9eb5332d844d79b80c189", 
   "optim-1.0.16": "35e5155375119c40f590f00110a5ca9a0bf74fda", 
@@ -280,6 +285,7 @@
   "vrml-1.0.10": "f3a423bd82cdaba10eefe921bc7b71222c282b8b", 
   "vrml-1.0.11": "f34f2a1e0b947b1dedd70c1d0d1c185b6e3e5744", 
   "vrml-1.0.13": "ab7bc25a3e3fdf90f9415cd6cd75f90c15c6b0e6", 
+  "windows-1.1.0": "c6dac6a7300697d5ad1013b0ee46848a65f1cc10", 
   "xraylib-1.0.8": "dae7707662baecdbdfe6f777f86b7427d006e13f", 
   "zenity-0.5.7": "f016b89f6c20acf18daac91916f72fbabda35987"
 }
