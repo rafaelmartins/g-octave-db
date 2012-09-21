@@ -1,0 +1,15 @@
+Name: dicom
+Version: 0.1.1
+Date: 2011-11
+Author: Andy Buckle
+Maintainer: Andy Buckle
+Title: dicom: file io for medical images and other data
+Description: Digital communications in medicine (DICOM) file io. 
+  Depends on Grassroots DICOM (GDCM). This package is not available
+  in repos for all distros. Contributors: Judd Storrs, Kris Thielemans.
+SystemRequirements: libgdcm2.0 (>= 2.0.16)
+Categories: imaging, medical
+Problems: dicomwrite is not useable
+Url: http://octave.org/wiki/index.php?title=Dicom
+Autoload: yes
+License: GPL version 3 or later
