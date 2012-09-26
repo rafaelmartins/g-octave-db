@@ -1,0 +1,19 @@
+Name: queueing
+Version: 1.1.1
+Date: 2012-09-08
+Author: Moreno Marzolla <marzolla@cs.unibo.it>
+Maintainer: Moreno Marzolla <marzolla@cs.unibo.it>
+Title: Queueing networks and Markov chains analysis package for GNU Octave
+Description: The queueing toolbox provides functions for queueing
+ networks and Markov chains analysis. This package can be used
+ to compute steady-state performance measures for open, closed and mixed
+ networks with single or multiple job classes. Mean Valud Analysis (MVA),
+ convolution, and various bounding techniques are implemented. Several
+ transient and steady-state performance measures for discrete-
+ and continuous-time Markov chains can  be computed (state occupancy 
+ probabilities, mean time to absorption, time-averaged sojourn times).
+Categories: Misc
+Depends: octave (>= 3.2.3)
+Autoload: no
+License: GPLv3+
+Url: http://www.moreno.marzolla.name/software/queueing/

@@ -1,0 +1,13 @@
+Name: io
+Version: 1.0.11
+Date: 2010-03-04
+Author: Various Authors
+Maintainer: The Octave Community
+Title: Input/Output
+Description: Input/Output in external formats.
+Categories: IO
+Depends: octave (>= 3.2.0)
+Suggested: java-1.2.6+ f Windows, windows-1.0.8+ f Windows, java-1.2.5 f linux
+Autoload: yes
+License: GPL version 2 or later
+Url: http://octave.sf.net
