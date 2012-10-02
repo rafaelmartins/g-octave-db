@@ -1,0 +1,12 @@
+Name: Linear-Algebra
+Version: 2.1.0
+Date: 2011-11-06
+Author: Various Authors
+Maintainer: The Octave Community
+Title: Linear Algebra.
+Description: Additional linear algebra code, including general SVD and matrix functions.
+Categories: Linear-Algebra
+Depends: octave (>= 3.2.3)
+Autoload: yes
+License: GPL version 3 or later
+Url: http://octave.sf.net

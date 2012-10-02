@@ -1,0 +1,11 @@
+Name: openmpi_ext
+Version: 1.1.0
+Date: 2012-8-29
+Author: Riccardo Corradini <riccardocorradini@yahoo.it>, Jaroslav Hajek, Carlo de Falco
+Maintainer: the Octave Community
+Title: openmpi_ext
+Description: MPI functions for parallel computing using simple MPI Derived Datatypes.
+Depends: octave (>= 3.2.4)
+Autoload: no
+License: GPLv3+
+Url: http://octave.sf.net

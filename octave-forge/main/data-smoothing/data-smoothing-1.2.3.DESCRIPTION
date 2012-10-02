@@ -1,0 +1,12 @@
+Name: data-smoothing
+Version: 1.2.3
+Date: 2011-10-06
+Author: Jonathan Stickel <jonathan.stickel@nrel.gov>
+Maintainer: Jonathan Stickel <jonathan.stickel@nrel.gov>
+Title: Data smoothing
+Description: Algorithms for smoothing noisy data
+Categories: Data-smoothing
+Depends: octave (>= 3.0.0), optim (>= 1.0.3)
+Autoload: yes
+License: GPL version 2 or later
+Url: http://octave.sf.net
