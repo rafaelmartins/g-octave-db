@@ -1,0 +1,11 @@
+Name: instrument-control
+Version: 0.1.0
+Date: 2012-10-02
+Author: Andrius Sutas <andrius.sutas@gmail.com>
+Maintainer: Andrius Sutas <andrius.sutas@gmail.com>
+Title: Instrument Control Toolbox
+Description: Low level I/O functions for serial, i2c and parallel interfaces.
+Categories: instrument-control
+Depends: octave (>= 3.2.0)
+Autoload: no
+License: GPLv3+
