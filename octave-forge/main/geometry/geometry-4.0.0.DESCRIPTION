@@ -1,0 +1,13 @@
+Name: geometry
+Version: 4.0.0
+Date: 03-02-2020
+Author: Juan Pablo Carbajal <ajuanpi+dev@gmail.com>,
+ Philip Nienhuis <prnienhuis@users.sf.net>,
+ Simeon Simeonov <sss41@cam.ac.uk>,
+Maintainer: Juan Pablo Carbajal <ajuanpi+dev@gmail.com>
+Title: Computational Geometry
+Description: Library for extending MatGeom functionality.
+Depends: octave (>= 4.2.0), matgeom (>= 1.0.0)
+Autoload: no
+License: GPLv3+, Boost v1.0
+Url: https://octave.sourceforge.io/geometry/

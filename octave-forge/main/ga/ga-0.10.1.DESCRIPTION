@@ -1,0 +1,12 @@
+Name: ga
+Version: 0.10.1
+Date: 2019-06-04
+Author: Luca Favatella <slackydeb@gmail.com>
+Maintainer: Octave-Forge community <maintainers@octave.org>
+Title: Genetic Algorithm
+Description: Genetic optimization code
+Categories: Optimization
+Depends: octave (>= 3.4.0)
+Autoload: yes
+License: GPL version 3 or later
+Url: http://octave.sf.net

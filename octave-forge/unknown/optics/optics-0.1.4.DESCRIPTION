@@ -1,0 +1,12 @@
+Name: optics
+Version: 0.1.4
+Date: 2019-09-12
+Author: Martin Vogel <octave@martin-vogel.info>, Ramom Flores <jose.ramom.flores.das.seixas@gmail.com>, Andreas Weber <octave@tech-chat.de>
+Maintainer: Andreas Weber <octave@tech-chat.de>
+Title: Optics
+Description: Functions covering various aspects of optics
+Categories: physics
+Problems: none
+Url: http://octave.sf.net
+Depends: octave (>= 3.2)
+License: GPLv3+

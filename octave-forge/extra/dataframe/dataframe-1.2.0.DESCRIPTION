@@ -1,0 +1,11 @@
+Name: dataframe
+Version: 1.2.0
+Date: 2017-08-14
+Author: Pascal Dupuis
+Maintainer: The Octave Community
+Title: Data Frame
+Description: Data manipulation toolbox similar to R data.frame
+Categories: data manipulation, statistics
+Depends: octave (>= 3.4.0)
+License: GPLv3+
+Url: http://octave.sf.net

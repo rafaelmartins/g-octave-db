@@ -1,0 +1,10 @@
+Name: optim
+Version: 1.5.3
+Date: 2018-08-01
+Author: various authors
+Maintainer: Olaf Till <i7tiol@t-online.de>
+Title: Optimization.
+Description: Non-linear optimization toolkit.
+Depends: octave (>= 3.6.0), struct (>= 1.0.12), statistics (>= 1.4.0)
+Autoload: no
+License: GPLv3+, modified BSD, public domain

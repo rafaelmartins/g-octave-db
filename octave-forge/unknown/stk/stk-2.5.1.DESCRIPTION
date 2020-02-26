@@ -1,0 +1,30 @@
+Name: STK
+#
+Version: 2.5.1
+#
+Date: 2018-06-12
+#
+Title: STK: A Small Toolbox for Kriging
+#
+Author: See AUTHORS.md file
+#
+Maintainer: Julien BECT <julien.bect@centralesupelec.fr>
+ and Emmanuel VAZQUEZ <emmanuel.vazquez@centralesupelec.fr>
+#
+Description:  The STK is a (not so) Small Toolbox for Kriging. Its primary
+ focus is on the interpolation/regression technique known as kriging, which
+ is very closely related to Splines and Radial Basis Functions, and can be
+ interpreted as a non-parametric Bayesian method using a Gaussian Process
+ (GP) prior. The STK also provides tools for the sequential and
+ non-sequential design of experiments. Even though it is, currently, mostly
+ geared towards the Design and Analysis of Computer Experiments (DACE), the
+ STK can be useful for other applications areas (such as Geostatistics,
+ Machine Learning, Non-parametric Regression, etc.).
+#
+License: GPLv3+
+#
+Url: https://sourceforge.net/projects/kriging/
+#
+Depends: octave (>= 3.6.0)
+#
+Autoload: no

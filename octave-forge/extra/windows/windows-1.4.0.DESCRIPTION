@@ -1,0 +1,11 @@
+Name: Windows
+Version: 1.4.0
+Date: 2019-11-06
+Author: Andy Adler <alder@ncf.ca>, John Donoghue <john.donoghue@ieee.org>
+Maintainer: John Donoghue <john.donoghue@ieee.org>
+Title: Windows functions
+Description: Provides COM interface and additional functionality on Windows
+Categories: Windows
+Depends: octave (>= 3.6.0)
+License: GPLv3+
+Url: http://octave.sf.net

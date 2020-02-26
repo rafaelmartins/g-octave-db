@@ -1,0 +1,12 @@
+Name: GSL
+Version: 2.1.1
+Date: 2018-06-18
+Author: Teemu Ikonen and others
+Maintainer: Octave-Forge community <maintainers@octave.org>
+Title: GNU Scientific Library.
+Description: Octave bindings to the GNU Scientific Library
+Depends: octave (>= 2.9.7)
+Autoload: no
+BuildRequires: gsl-devel
+License: GPL version 2 or later
+Url: http://octave.sf.net

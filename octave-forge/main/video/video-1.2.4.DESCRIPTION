@@ -1,0 +1,12 @@
+Name: video
+Version: 1.2.4
+Date: 2017-05-19
+Author: Stefan van der Walt <stefan@sun.ac.za> and Roman Stanchak
+Maintainer: Andreas Weber <octave@tech-chat.de>
+Title: Video functions
+Description: A wrapper for ffmpeg's libavformat and libavcodec, implementing
+ addframe, avifile, aviinfo and aviread.
+Depends: octave (>= 3.8.2)
+BuildRequires: libavutil-dev libavformat-dev libswscale-dev libavcodec-dev from Debian Jessie
+License: FreeBSD
+Url: http://octave.sf.net

@@ -1,0 +1,13 @@
+Name: mapping
+Version: 1.4.0
+Date: 2020-01-20
+Author: various authors
+Maintainer: Philip Nienhuis <prnienhuis@users.sf.net>
+Title: Mapping Functions
+Description: Simple mapping and GIS .shp .dxf and raster file functions.
+Categories: Mathematics
+Depends: octave (>= 3.8.0), io (>= 2.2.7), geometry (>= 4.0.0)
+Suggested: GDAL
+Autoload: no
+License: GPLv3+
+Url: http://octave.sf.net

@@ -1,0 +1,13 @@
+Name: zeromq
+Version: 1.3.0
+Date: 2018-04-02
+Author: John Donoghue <john.donoghue@ieee.org>
+Maintainer: John Donoghue <john.donoghue@ieee.org>
+Title: ZeroMQ Toolbox
+Description: ZeroMQ bindings for GNU Octave
+Categories: Zeromq
+Depends: octave (>= 4.0.0)
+SystemRequirements: zmq
+Autoload: no
+License: GPLv3+
+Url: http://octave.sourceforge.net

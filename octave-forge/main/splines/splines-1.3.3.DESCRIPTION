@@ -1,0 +1,12 @@
+Name: splines
+Version: 1.3.3
+Date: 2019-10-17
+Author: various authors
+Maintainer: Nir Krakauer <splines@nirkrakauer.net>
+Title: Splines.
+Description: Additional spline functions.
+Categories: Splines
+Depends: octave (>= 3.6.0)
+Autoload: no
+License: GPLv3+, public domain
+Url: http://octave.sf.net

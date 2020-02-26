@@ -1,0 +1,14 @@
+Name: io
+Version: 2.4.11
+Date: 2018-04-18
+Author: various authors
+Maintainer: Philip Nienhuis <prnienhuis@users.sf.net>
+Title: Input/Output
+Description: Input/Output in external formats.
+Categories: IO
+Problems: Default initial Java memory probably too small, increase with java.opts (see documentation). UNO support experimental.
+Depends: octave (>= 3.8.0)
+Suggested: windows (>= 1.2.1); Java JRE (> 1.6)
+Autoload: no
+License: GPLv3+, simplified BSD
+Url: http://octave.sf.net

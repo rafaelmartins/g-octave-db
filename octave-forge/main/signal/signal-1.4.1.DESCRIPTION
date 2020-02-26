@@ -1,0 +1,11 @@
+Name: signal
+Version: 1.4.1
+Date: 2019-02-08
+Author: various authors
+Maintainer: Mike Miller <mtmiller@octave.org>
+Title: Signal Processing
+Description: Signal processing tools, including filtering, windowing and display functions.
+Depends: octave (>= 3.8), control (>= 2.4)
+Autoload: no
+License: GPLv3+, public domain
+Url: https://octave.sourceforge.io/signal/

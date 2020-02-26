@@ -1,0 +1,12 @@
+Name: parallel
+Version: 3.1.3
+Date: 2018-08-03
+Author: Hayato Fujiwara, Jaroslav Hajek, Olaf Till
+Maintainer: Olaf Till <i7tiol@t-online.de>
+Title: Parallel Computing.
+Description: Parallel execution package. See also package mpi, maintained
+ by Carlo de Falco. 
+Depends: octave (>= 4.0.0), struct (>= 1.0.12)
+BuildRequires: libgnutls..-dev
+Autoload: no
+License: GPLv3+

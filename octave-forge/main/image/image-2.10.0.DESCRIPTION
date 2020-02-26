@@ -1,0 +1,14 @@
+Name: image
+Version: 2.10.0
+Date: 2018-12-26
+Author: various authors
+Maintainer: Carnë Draug <carandraug@octave.org>
+Title: Image Processing
+Description: The Octave-forge Image package provides functions for
+ processing images.
+ The package also provides functions for feature extraction, image
+ statistics, spatial and geometric transformations, morphological
+ operations, linear filtering, and much more.
+Depends: octave (>= 4.2.0)
+License: GPLv3+
+Url: http://octave.sf.net

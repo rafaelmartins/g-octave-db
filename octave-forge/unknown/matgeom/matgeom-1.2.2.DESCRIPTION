@@ -1,0 +1,11 @@
+Name: matgeom
+Version: 1.2.2
+Date: 2019-11-20
+Author: David Legland <david.legland@nantes.inra.fr>
+Maintainer: Juan Pablo Carbajal <ajuanpi+dev@gmail.com>
+Title: Computational Geometry
+Description: Geometry toolbox for 2D/3D geometric computing
+Depends: octave (>= 4.2.0)
+Autoload: no
+License: FreeBSD
+Url: https://github.com/mattools/matGeom

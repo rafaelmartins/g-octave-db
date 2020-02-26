@@ -1,0 +1,12 @@
+Name: linear-algebra
+Version: 2.2.3
+Date: 2019-11-08
+Author: various authors
+Maintainer: Octave-Forge community <octave-dev@lists.sourceforge.net>
+Title: Linear algebra.
+Description: Additional linear algebra code, including matrix functions.
+Categories: Linear algebra
+Depends: octave (>= 4.0.0)
+Autoload: no
+License: GPLv3+, LGPLv3+, FreeBSD
+Url: http://octave.sf.net
